@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Talisman.Domain.Entities.FeedBack>
+@{
+    ViewBag.Title = "Отзывы на сайте «Талисман-мебель»";
+    ViewBag.Description = "Отзывы о компании Талисман-мебель Мебель на заказ в Москве";
+    ViewBag.MainUrl = "https://talis-mebel.ru" + Url.Action("List", "FeedBack");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.StyleF = "/Content/Feedback.min.css";
+}
+
+<div id="wrFB" class="mainBlock2 shadow2 h100">
+    <h1 class="chapterName3">Отзывы</h1>
+    <diw id="wrFeedBacks">
+        <article>
+            @if (Model.Count() == 0)
+            {
+                <div class="fbBody">
+                    Пока нет отзывов.
+                </div>
+            }
+            else
+            {
+
+                foreach (var f in Model)
+                {
+                    <div class="fbBody shadowIns2 ">
+                        <div class="feedInfo">
+                            <span class="sender">@f.Name</span>, <span class="fbDate">@f.Date.ToShortDateString()</span>
+                        </div>
+                        <div class="feedMess">
+                            @f.Message
+                        </div>
+                    </div>
+                }
+
+            }
+        </article>
+    </diw>
+    <section class="fbBody shadowIns2">
+        @{Html.RenderAction("AddFeedBack", "FeedBack");}
+    </section>
+</div>
+<script>
+    fbHeight();
+</script>

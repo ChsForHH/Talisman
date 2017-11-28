@@ -1,0 +1,85 @@
+﻿ul#contacts{    
+    list-style:none;
+    margin:30px 10px;
+    padding:0;
+}
+li.liContacts{
+    padding:0;
+    margin-bottom:10px;
+}
+span.contContact{
+    display:inline-block;
+}
+span.typeContact{
+    font-weight:bolder;
+    padding-right:20px;
+}
+#wrSocIco{       
+    width:100%;
+}
+div.socialNetsImages2{    
+    width:70%;
+    display:table;
+    margin:5px auto;
+}
+.callBackTitle{
+    text-align:center;
+    margin-top:30px;
+}
+div#contactsCallBack{
+    text-align:center;
+   
+}
+div#wrCallBack2{
+    width:100%;
+    overflow:hidden;
+     text-align:center;
+}
+div#CallBack2 input{    
+     border:solid 1px #a4a9b5;
+     background-color:#fafae7;
+}
+div#wrContactsCallBack{
+    text-align:left;
+    display:inline-block;
+    width:190px;
+    background-color:#f1f1f1;    
+    margin:16px;
+    padding:16px;   
+}
+
+div#wrMap{
+    display:inline-block;    
+    width:100%;
+    height:250px;
+}
+@media(min-width:300px) {
+    div#wrMap {        
+        height: 300px;
+    }
+    div.socialNetsImages2 {
+        margin: 8px auto;
+        width: 50%;
+    }
+}
+@media(min-width:500px) {
+    div#wrContactsCallBack {
+        width:250px;
+    }    
+    div.socialNetsImages2{        
+    margin:10px auto;
+}
+}
+@media(min-width:700px) {
+    div#wrMap{    
+    height:500px;
+}
+    div.socialNetsImages2 {
+        margin: 15px auto;
+        width: 30%;
+    }
+}
+div.ya-share2{
+    margin:10px;
+    text-align:center;
+}

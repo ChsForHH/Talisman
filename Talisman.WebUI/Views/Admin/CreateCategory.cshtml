@@ -1,0 +1,33 @@
+﻿@model Talisman.Domain.Entities.Categorie
+
+@{
+    ViewBag.Title = "CreateCategory";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>Создание новой категории ассортимента.</h2>
+@Html.ValidationSummary()
+@using (@Html.BeginForm("CreateCategory", "Admin", FormMethod.Post))
+{
+    
+    <div class="form-group">        
+        @Html.LabelFor(c => c.CategoryName, "Введите название категории")
+        @Html.TextBoxFor(c => c.CategoryName, new { @class = "form-control" })
+
+        @Html.LabelFor(c => c.Article, "Введите текст статьи описания категории")
+        @Html.TextAreaFor(c => c.Article, new { @class = "form-control", rows = 25 })
+
+        @Html.LabelFor(c => c.CEO, "СЕО текст для тега description на странице категории")
+        @Html.TextAreaFor(c => c.CEO, new { @class = "form-control",rows=3 })
+
+        @Html.LabelFor(c => c.Title, "Текст для заголовка title")
+        @Html.TextAreaFor(c => c.Title, new { @class = "form-control", rows = 2 })
+
+        @Html.LabelFor(c => c.KeyWords, "Текст для атрибута keywords тега meta")
+        @Html.TextBoxFor(c => c.KeyWords, new { @class = "form-control"})
+    </div>
+    <button class="btn btn-success">Сохранить</button>
+    @Html.ActionLink("Отмена", "ListCategories", null, new { @class="btn btn-default"})
+
+}
+

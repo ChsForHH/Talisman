@@ -1,0 +1,119 @@
+﻿.articleTitle{
+margin:0 0 20px 0;
+padding:0.5vw 0 1.5vw 0;
+text-align:center;
+}
+p.pArticle{
+    /*margin:0;*/
+}
+p.pImgArt{
+    text-align:center;
+    margin:2vw 0;
+}
+img.imgArt{
+    width:80%;
+}
+ul.ulArticle{
+    list-style:none;
+}
+ul.ulArticle1{
+    list-style:disc;
+}
+ul.ulArticle2{
+    list-style:circle;
+
+}
+li.liArticle{
+    margin:0 2vw 0.5vw 0;
+}
+li.liArticle1{
+    
+    margin-bottom:1vw;
+    padding-right:2vw;
+}
+li.liArticle1:last-child:{
+    margin-bottom:0;
+}
+.artLocTitle{
+    text-align:center;
+    /*font-size:larger;*/
+    font-weight:bolder;
+    margin:3vw 0 2vw 0;
+
+}
+.artLocTitle2{
+    text-align:center;
+    /*padding-left:20px;*/
+    margin-top:2vw;
+    font-weight:bolder;
+}
+.artLocTitle3{
+    text-align:left;
+    /*padding-left:20px;*/
+    margin-top:2vw;
+    margin-bottom:1vw;
+    font-weight:bolder;
+}
+p.pArticle{
+    text-align:justify;
+}
+ul#articleList{
+    list-style:none;
+    margin:1.5vw 0px 0px 0px;
+    padding:0.6vw ;
+    /*background-color:red;*/
+    /*width:100%;*/
+    
+}
+ul#articleList li{
+    text-align:left;
+    margin:0;
+    padding:0;
+    /*padding:7px 0 7px 25px;*/
+    /*cursor:pointer;*/
+    /*font-weight:bolder;
+    color:inherit;*/
+}
+/*ul#serviceList2 li:hover{
+    text-decoration:underline;
+}*/
+ul#articleList li:nth-child(odd){
+    background-color:#dddddc;
+}
+ul#articleList li:nth-child(even){
+    background-color:#f4f4e9;
+}
+ul#articleList li:last-child{
+    margin-bottom:0;
+}
+.articleLink{
+    color:inherit;
+    display:inline-block;
+    width:100%;
+    padding:0.7vw 0 0.7vw 2.5vw;
+    /*text-decoration:underline;*/
+    /*font-weight:bolder;*/
+}
+.articleLink:hover{
+    color:inherit;
+    text-decoration:underline;
+    cursor:pointer;
+    /*font-weight:bolder;*/
+}
+div.artBlock{
+    margin-left:1%;
+     margin-right:2%;
+     margin-top:1%;
+     margin-bottom:1%;
+    padding: 1% 3%;
+    text-align:justify;
+    font-family:tahoma,arial,verdana,sans-serif,Lucida Sans;
+    font-weight:400;
+     font-size:calc(11px + 0.3vw);  
+    /*border:solid 1px #d2d1d1;*/
+    background-color:white;
+    /*border-radius:8px;*/
+    /*border: solid 1px #8c8d8a;*/
+    box-shadow:0 0 0.4vw #8c8d8a;
+    border-radius:3px;
+}

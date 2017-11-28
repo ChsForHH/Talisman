@@ -1,0 +1,34 @@
+﻿@model Talisman.Domain.Entities.Article
+
+@{
+    ViewBag.Title = "Редактирование категории";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h3>Редактирование категории @Model.Name</h3>
+
+@using (@Html.BeginForm("EditArticle", "Admin", FormMethod.Post))
+{
+    @Html.HiddenFor(c => c.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Name, "Название статьи")
+        @Html.TextBoxFor(c => c.Name, new { @class = "form-control" })
+
+        @Html.LabelFor(c => c.Content, "Контент")
+        @Html.TextAreaFor(c => c.Content, new { @class = "form-control", rows = 25 })
+        @Html.HiddenFor(a=>a.Author)
+        @Html.HiddenFor(a=>a.Id)
+        @Html.HiddenFor(a=>a.Date)
+        @Html.LabelFor(c => c.Visible, "Отображение на сайте")
+        @Html.CheckBoxFor(c => c.Visible, new { @class = "form-control" })
+        @Html.LabelFor(c => c.CEO, "СЕО текст для тега description на странице статьи")
+        @Html.TextBoxFor(c => c.CEO, new { @class = "form-control" })
+    </div>
+    <button class="btn btn-success">Сохранить</button>
+}
+
+
+<div class="adminExit">
+    @Html.ActionLink("Вернуться к списку статей", "ArticlesAdmin", null, new { @class = "btn btn-default" })
+</div>

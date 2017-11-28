@@ -1,0 +1,11 @@
+﻿@helper NewsH() 
+{
+    var g = new Talisman.Domain.Concrete.GData3();
+    var list = g.News.Where(n=>n.Visible).OrderByDescending(n=>n.Date);    
+        foreach (var l in list) 
+        {            
+                <a class="newsLink" href="@l.Url">@l.Date.Date.ToShortDateString() <br>
+                @l.Content</a>            
+        }           
+} 
+    

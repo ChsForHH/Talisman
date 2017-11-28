@@ -1,0 +1,125 @@
+﻿body {
+    margin:0;
+    
+    padding:0;
+    
+    
+}
+img.categImg{
+    display:block;
+    width:50%;
+    margin:10px 0;
+    box-shadow:0 0 2px #000;    
+}
+div#adminNav{
+    text-align:center;
+    background-color:#afafad;
+    padding:5px;
+}
+div#wrAdmin{
+    background-color:#cacaca;
+    height:100%;
+    padding:10px 0;
+    
+}
+div#mainAdmin{
+    width:960px;
+    margin:auto;
+    border-radius:7px;
+    /*padding:20px;*/
+    background-color:white;
+}
+#adminTitle{
+    text-align:center;
+    color:white;
+}
+div#pan1{
+    /*background-color:black;*/
+}
+div#panHead{
+    background-color:#383745;
+}
+
+/*-----------------------редактирование товара--------------------*/
+div#adminPhotos{
+    width:100%;
+    overflow-x:auto;
+    margin:10px 0;
+}
+.adminExit{
+    text-align:center;
+    padding:10px;
+}
+.adminTablePhotoTd{
+    border:3px solid #fff;
+    text-align:center;
+}
+div.adminTablePhotoBut{
+    padding-top:5px;
+}
+/*-----------------------------------панель товары------------------------*/
+div#adminTovars{
+    margin:10px 0px;
+}
+
+td.tabPhoto{
+    
+}
+
+.spanRed{
+    color:red;
+}
+
+img.adminMiniPhoto{
+    /*display:inline;*/
+    /*height:80px;*/
+    padding-right:3px;
+}
+div#adminPhotosMini{
+    max-width:500px;
+    overflow-x:auto;
+    
+}
+/*----------------------------------------иконки-----------------*/
+span.gOk{
+    color:green;
+}
+span.gNo{
+    color:red;
+}
+img.imgTov{
+     height:150px;
+ }
+
+/*-------------------------ошибки--------------------------*/
+.field-validation-error {
+    color: #7e5353;
+}
+
+.validation-summary-errors {
+    color: #870a0a;
+    font-weight: bold;
+}
+.mw100{
+    max-width:100%;
+}
+
+
+/*#CallBack ul {
+    text-align: left;
+    margin: 0;
+    padding: 5px 20px;
+}
+#CallBack ul li{
+   
+    padding:0 0 3px 0;
+   
+}*/
+/*input[type=text]{
+    
+    border: 1px solid grey;
+}*/
+input.input-validation-error,textarea.input-validation-error {
+    border: 1px solid #870a0a;
+    background-color: #fee;
+}

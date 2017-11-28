@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Talisman.Domain.Entities.Categorie>
+
+<ul class="ulLeftNavbar">
+    @foreach (var c in Model)
+    {
+        <li>
+            <a class="lnLink" href="@Url.Action("Category", "Category", new { categName = c.CategoryName.Replace(" ","-") })">
+                <span class="leftMenuFont">@c.CategoryName</span>
+            </a>
+        </li>
+    }
+</ul>

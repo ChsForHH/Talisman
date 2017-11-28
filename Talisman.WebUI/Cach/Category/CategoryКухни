@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Кухни на заказ купить в Москве Недорого  Заказать кухню по цене производителя Каталог Шоу-рум Изготовление корпусной мебели Талисман-мебель" />
+    <meta name="yandex-verification" content="cea5a8111ef7aa23" />      
+    <meta name="geo.placename" content="город Москва, Россия" />    
+    <meta name="geo.region" content="RU-город Москва" />
+    <link rel="canonical" href="https://talis-mebel.ru/%D0%9A%D1%83%D1%85%D0%BD%D0%B8" />        <meta name="keywords" content="купить,кухни, на заказ,заказать,в москве,мебель,недорого" />    <link href="/Content/SiteMain3.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />        
+        <link rel="shortcut icon" href="/Content/Images/logo333.png" type="image/png" />     
+    <title>Мебель для кухни на заказ в Москве. Каталог от производителя. </title>  
+    <script src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+    <script src="/Scripts/jquery.scrollTo.min.js"></script>
+    <script src="/Scripts/MainScript2.min.js"></script>       
+</head>
+<body>    
+    <header id="header">
+        <div id="contactsHead">
+            <div class="contBlock">
+                <span class="contItem"><strong>Шоу-рум&nbsp;в&nbsp;Москве:&nbsp;</strong></span> Дмитровское&nbsp;шоссе&nbsp;д.100&nbsp;ст.2<br/>Бизнес-центр&nbsp;<b>«НОРД-ХАУС»</b><br/>Тел.&nbsp;8-(969)-0867334
+            </div>
+        </div>
+        <a href="/" id="headLink">
+            <div id="wrImgLogo">
+                <img id="logo" src="/Content/Images/l2.png" alt="логотип" />
+            </div>
+            <div id="wrTextLogo">
+                <div id="mainTitle">
+                    ТАЛИСМАН-МЕБЕЛЬ
+                </div>
+                <p id="logoword">
+                    Изготовление корпусной мебели на заказ
+                </p>
+            </div>
+        </a>
+        <div class="endfloat"></div>
+    </header>
+    <nav id="wrnav" class="menuFS">
+        <div id="navbar">
+            <div id="buttonUp" class="bUp FsSmall lnH">
+                Наверх ^
+            </div>
+            <div id="menuCatalog" class="anav2 lnH">
+                <span class="spAnav1 menuFs">Каталог</span>
+                <div id="catalog">
+<ul class="ulLeftNavbar">
+        <li>
+            <a class="lnLink" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8">
+                <span class="leftMenuFont">Кухни</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5">
+                <span class="leftMenuFont">Прихожие</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5">
+                <span class="leftMenuFont">Шкафы-купе</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B5">
+                <span class="leftMenuFont">Гостиные</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">
+                <span class="leftMenuFont">Торговое оборудование</span>
+            </a>
+        </li>
+</ul>
+
+                </div>
+            </div>
+            <a href="/" class="anav1 lnH">
+                <span class="spAnav1 menuFs"><span class="glyphicon glyphicon-home"></span></span>
+            </a>
+            <a href="/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Услуги</span>
+            </a>
+            <a href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Статьи</span>
+            </a>
+            <a href="/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Контакты</span>
+            </a>
+            <a class="anav1 lnH" href="/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B">
+                <span class="spAnav1 menuFs">Отзывы</span>
+            </a>
+            <span class="unVis FsSmall">Заказать обратный звонок</span>
+            <div id="backCall">
+                <span id="CallBackLink" class="FsSmall lnH" onclick="CBShow()">Заказать обратный звонок</span>
+                <div id="outwr">                    
+                </div>
+            </div>
+        </div>
+        <div id="navbar2" class="menuFs">
+            <span id="picList" class="lnH" onclick="ShowLeft()" title="Показать боковое меню">+</span>
+            <a href="/" class="anav2 mlauto">
+                <span class="spAnav1"><span class="glyphicon glyphicon-home"></span></span>
+            </a>
+            <a href="/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8" class="anav2 lnH">
+                <span class="spAnav1">Услуги</span>
+            </a>
+            <a href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8" class="anav2 lnH">
+                <span class="spAnav1">Статьи</span>
+            </a>
+            <a href="/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B" class="anav2 lnH">
+                <span class="spAnav1">Контакты</span>
+            </a>
+            <a class="anav2 lnH" href="/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B">
+                <span class="spAnav1">Отзывы</span>
+            </a>
+        </div>
+        <div class="endfloat"></div>
+    </nav>
+    <div id="wrMain">
+        <aside id="wr">
+            <div id="leftNavbar" class="shadowIns menuFS">
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Каталог</div>
+<ul class="ulLeftNavbar">
+        <li>
+            <a class="lnLink" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8">
+                <span class="leftMenuFont">Кухни</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5">
+                <span class="leftMenuFont">Прихожие</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5">
+                <span class="leftMenuFont">Шкафы-купе</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B5">
+                <span class="leftMenuFont">Гостиные</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">
+                <span class="leftMenuFont">Торговое оборудование</span>
+            </a>
+        </li>
+</ul>
+
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Мы в соцсетях</div>
+                    <div class="socialNetsImages">
+                        <a class="socialNetsLink" href="https://www.facebook.com/groups/1789091811364810/?fref=ts" target="_blank">
+                            <img class="socIco" src="/Content/Images/fb_ico.png" alt="faceBook" title="Facebook" />
+                        </a>
+                        <a class="socialNetsLink" href="https://vk.com/club132045350" target="_blank">
+                            <img class="socIco" src="/Content/Images/vk_ico.png" alt="ВКонтакте" title="ВКонтакте" />
+                        </a>
+                        <a class="socialNetsLink" href="https://www.instagram.com/talisman_mebel/" target="_blank">
+                            <img class="socIco" src="/Content/Images/inst_ico.png" alt="Instagram" title="Instagram" />
+                        </a>
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Мы на карте Москвы</div>
+                    <div id="cardWrImg">
+                        <a href="/Контакты#1000" class="mapLink">
+                            <img id="imgCard" src="/Content/Images/talcard.jpg" alt="яндекс-карта" title="яндекс-карта" />
+                        </a>
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Новости</div>
+                    <div class="wrLeftBlock">
+                                        <a class="newsLink" href="/Статьи/Как-выбрать-кухонный-гарнитур">09.06.2017 <br>
+                Добавлена статья &quot;Как выбрать кухонный гарнитур&quot;</a>            
+                <a class="newsLink" href="/Кухни/модель-69">01.06.2017 <br>
+                Пополнение каталога. Добавлена кухня модель 69</a>            
+                <a class="newsLink" href="/Статьи/Шесть-видов-столешниц-для-кухни">03.05.2017 <br>
+                Добавлена статья &quot;Шесть видов столешниц для кухни&quot;</a>            
+                <a class="newsLink" href="/Статьи/Как-выбрать-фасад-кухни-советы-дизайнеров">02.05.2017 <br>
+                Добавлена статья &quot;Как выбрать фасад кухни: советы дизайнеров&quot;</a>            
+                <a class="newsLink" href="/FeedBack/List">12.04.2017 <br>
+                Добавлен новый отзыв</a>            
+
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Статьи</div>
+                    <div class="wrLeftBlock">
+    <a class="newsLink" href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9A%D0%B0%D0%BA-%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%BA%D1%83%D1%85%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80">Как выбрать кухонный гарнитур?</a><a class="newsLink" href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9A%D0%B0%D0%BA-%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B0%D0%B4-%D0%BA%D1%83%D1%85%D0%BD%D0%B8-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2">Как выбрать фасад кухни: советы дизайнеров.</a><a class="newsLink" href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A8%D0%B5%D1%81%D1%82%D1%8C-%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2-%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86-%D0%B4%D0%BB%D1%8F-%D0%BA%D1%83%D1%85%D0%BD%D0%B8">Шесть видов столешниц для кухни</a>
+
+                    </div>
+                </nav>
+            </div>
+        </aside>
+        <main id="main" class="mainFont">
+            
+
+<div class="mainBlock shadow">
+       
+    <div class="colCl">
+
+        <h1 class="chapterName3">                     
+        Кухни
+ </h1> 
+<article>
+<p>
+<img src="/Content/Images/kichen.jpg" >
+В реалиях современной жизни кухня все чаще перестает быть местом, изолированным от остального дома. Здесь мы не только творим наши кулинарные шедевры или используем как столовую для приема пищи, но и проводим время с семьей , а также принимаем гостей.
+</p>
+<p>
+Исходя из этого, мы все больше стали уделять внимание практичному и современному дизайну кухни, ее эргономике с применением современных технологий.  Хотя осталось и огромное количество приверженцев классического стиля дизайна и функциональности . Двигаясь в ногу со временем и учитывая опыт прошлых лет мы готовы предложить вам решение любой из этих задач.
+</p>
+<p>Мы уверены, что кухни на заказ от «Талисман-Мебель» могут стать оптимальным решением для вашего дома.</p>
+</article>
+
+    </div>
+</div>
+    <article class="mainBlock2 shadow mt2">    
+        <h2 class="type2">            
+            <span class="chaptername2 shadow2">
+                Каталог
+            </span>
+        </h2>       
+    <p class="catDesc">
+
+        
+<p class="catDesc">
+Здесь представлены образцы нашей продукции. Обращаем ваше внимание на то, что все изделия изготавливались под заказ, по индивидуальным дизайн-проектам, с учетом размеров и конфигурации помещения, потребностей клиентов и дизайна интерьера. У нас вы можете заказать мебель для кухни, идеально подходящую именно для вас.<br/><br/> 
+Чтобы перейти к описанию той или иной модели кухонного гарнитура, просто кликайте по фотографиям или заголовкам.
+</p>
+
+    </p>
+
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="5">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-5" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 5
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-5" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 5" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/51s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="6">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-6" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 6
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-6" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 6" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/55s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="30">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-30" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 28
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-30" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 28" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/59s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="31">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-31" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 31
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-31" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 31" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/67s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="32">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-32" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 32
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-32" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 32" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/69s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="33">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-33" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 33
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-33" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 33" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/72s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="34">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-34" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 34
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-34" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 34" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/78s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="35">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-35" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 35
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-35" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 35" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/81s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="36">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-36" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 36
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-36" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 36" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/84s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="37">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-37" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 37
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-37" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 37" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/90s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="40">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-40" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 40
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-40" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 40" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/102s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="41">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-41" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 41
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-41" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 41" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/106s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="42">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-42" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 42
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-42" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 42" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/110s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="43">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-43" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 43
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-43" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 43" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/114s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="44">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-44" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 44
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-44" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 44" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/115s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="45">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-45" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 45
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-45" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 45" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/118s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="46">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-46" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 46
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-46" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 46" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/119s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="47">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-47" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 47
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-47" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 47" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/121s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="48">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-48" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 48
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-48" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 48" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/128s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="49">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-49" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 49
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-49" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 49" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/130s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="50">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-50" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 50
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-50" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 50" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/138s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="51">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-51" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 51
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-51" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 51" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/141s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="52">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-52" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 52
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-52" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 52" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/145s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="53">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-53" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 53
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-53" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 53" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/147s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="54">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-54" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 54
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-54" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 54" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/148s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="55">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-55" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 55
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-55" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 55" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/154s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="56">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-56" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 56
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-56" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 56" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/156s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="57">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-57" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 57
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-57" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 57" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/161s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="58">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-58" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 58
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-58" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 58" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/166s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="59">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-59" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 59
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-59" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 59" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/168s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="60">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-60" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 60
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-60" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 60" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/173s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="61">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-61" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 61
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-61" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 61" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/179s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="62">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-62" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 62
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-62" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 62" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/182s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="63">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-63" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 63
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-63" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 63" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/184s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="64">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-64" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 64
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-64" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 64" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/186s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="65">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-65" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 65
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-65" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 65" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/188s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="66">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-66" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 66
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-66" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 66" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/190s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="67">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-67" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 67
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-67" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 67" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/192s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="68">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-68" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 68
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-68" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 68" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/193s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="69">
+                        <a class="viewAjaxLinkm" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-69" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 69
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-69" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Кухня модель 69" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/195s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+    </article>
+
+
+        </main>
+        <div class="endfloat"></div>
+    </div>
+    <footer>
+        <nav class="footChapter">
+            <a href="/">Главная страница</a>
+            <a href="/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8">Услуги</a>
+            <a href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A8%D0%B5%D1%81%D1%82%D1%8C-%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2-%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86-%D0%B4%D0%BB%D1%8F-%D0%BA%D1%83%D1%85%D0%BD%D0%B8">Статьи</a>
+            <a href="/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B">Контакты</a>
+            <a href="/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B">Отзывы</a>
+        </nav>
+        <nav class="footChapter">
+            <a href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8">Кухни</a>
+            <a href="/%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5">Прихожие</a>
+            <a href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5">Шкафы-купе</a>
+            <a href="/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B5">Гостиные</a>
+            <a href="/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Торговое оборудование</a>
+        </nav>
+        <div class="footAbout">
+            <div class="footChapterName">Компания «Талисман-Мебель»</div>
+            <p>
+                Производство корпусной мебели в Москве. Мебель от производителя по ценам производителя.
+                Если вы хотите купить или заказать мебель в Москве по доступным ценам - мы можем предложить вам производство кухонь,
+                гостиных, прихожих, шкафов-купе и торгового оборудования для вашего бизнеса.
+                Команда профессионалов создаст для вас индивидуальный дизайн и проконтролирует качество выполнения работ на
+                всех этапах - от создания дизайна до сборки. Мебель на заказ от компании «Талисман-Мебель» - это Ваш правильный выбор.
+            </p>
+        </div>
+        <div class="footChapter">
+            <span>Адрес: Дмитровское шоссе д.100 ст.2 Бизнес-центр «НОРД-ХАУС»</span>
+            <span class="glyphicon glyphicon-phone-alt"></span><span>8-(969)-0867334</span>
+            <span class="glyphicon glyphicon-envelope"></span><span>talismebel@gmail.com</span>
+        </div>
+        <div class="footChapter">
+            <span>&copy; Талисман мебель talis-mebel.ru 2016-2017</span>
+            <span id="designInfo">Designed by <a class="footMailLink" href="mailto:chsg73@gmail.com">Chs</a></span>
+        </div>
+    </footer>    
+</body>
+</html><!--cach-->

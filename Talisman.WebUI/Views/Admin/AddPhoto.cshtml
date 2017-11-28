@@ -1,0 +1,18 @@
+﻿@model int
+
+<div id="loadPhotoForm">
+    @using (Html.BeginForm("AddPhoto", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="hidden" name="tovarId" value="@Model" />
+        <div class="form-group ">
+            <label for="image">Загрузить</label>
+            <input name="images" id="file1" type="file" multiple accept="image/*,image/jpeg"
+                   title=" выбрать файлы" />
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" type="submit">Сохранить</button>
+        </div>
+        
+        
+    }
+</div>

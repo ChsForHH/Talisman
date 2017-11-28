@@ -1,0 +1,199 @@
+﻿@model Talisman.WebUI.Models.Viewer
+@{
+    string catName = "";            
+    string cn = "";
+    switch (Model.Tovar.CategoryId)
+    {
+        case 1: catName = "кухню"; cn = "Кухни на заказ"; break;
+        case 2: catName = "прихожую"; cn = "Прихожие на заказ"; break;
+        case 3: catName = "шкаф-купе"; cn = "Шкафы-купе на заказ"; break;
+        case 4: catName = "мебель для гостиной"; cn = "Мебель для гостиной на заказ"; break;
+        case 5: catName = "торговое оборудование"; cn = "Торговое оборудование на заказ"; break;
+        default: catName = "мебель"; break;
+    }    
+    var cont = Model.Tovar.Describing.Split('/').First().Replace("<p class=\"posDesc\">", "").Replace("<", "").Replace("\n", "").Replace("\r", "").Replace(">","").Replace("span","").Replace("class","").Replace("\"","");
+    if (cont.Length > 100)
+    {
+        var dn=cont.Substring(0, 99);
+        cont=dn.Substring(0, dn.LastIndexOf(' '))+"...";
+    }    
+    ViewBag.Title = Model.Tovar.Title;
+    ViewBag.Description = Model.Tovar.CEO;    
+    ViewBag.KeyWords = Model.Tovar.KeyWords;
+       
+    ViewBag.MainUrl = "https://talis-mebel.ru" + Url.Action("Position", "Category", new  { catName=Model.CategoryName.Replace(" ","-"), id=Model.Tovar.TovarId});
+    ViewBag.StyleF = "/Content/Position.min.css";
+    ViewBag.StyleF2 = "/Content/pluginNew.min.css";
+    string[] articles=new string[2];
+    var ar = Model.Tovar.Describing.Split('|');
+    if (ar.Length > 0)
+    {
+        articles[0] = ar[0];
+    }
+    else
+    {
+        articles[0] = "";
+    }
+    if (ar.Length > 1)
+    {
+        articles[1] = ar[1];
+    }
+    else
+    {
+        articles[1] = "";
+    }
+    
+}
+<script  src="~/Scripts/posPlugin.min.js"></script>
+<div id="shadow"></div>
+<div id="wrPlugm">
+    <span id="outPlugm">X</span>
+    <div id="mainP">
+        <div id="posNum">
+            <span id="num1">1</span> / <span id="num2">@Model.PhotoIds.Count().ToString()</span>
+        </div>
+        <div id="mainPlug" class="shadowIns2">
+            <div id="relPlug" class="RP">
+                <div id="wrwrBm">                    
+                    <img id="plImgBm" alt="основное фото1" src="~/Content/Images/pixel.png" />
+                </div>
+                <div id="wrwrm">
+                    <img id="plImgm" alt="основное фото2" src="~/Content/Images/pixel.png" />
+                </div>
+                <div id="wrButs">
+                    <span id="resFm" class="glyphicon glyphicon-resize-full" onclick="FS()"></span>
+                    <span id="resF2m" class="glyphicon glyphicon-resize-small" onclick="Sm_S()"></span>
+                    <div id="leftPlugm" onclick="prevImg()">
+                        <span id="plSpan1m" class="glyphicon glyphicon-chevron-left"></span>
+                    </div>
+                    <div id="rightPlugm" onclick="nextImg()">
+                        <span id="plSpan2m" class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="posBlock" class="positionBlock shadow ">
+    <p class="seoP">@cn от компании «Талисман-Мебель»</p>   
+    <h1 class="chapterName3">
+        <span class="glass">
+            @Model.Tovar.Name
+        </span>
+    </h1>
+    <section>
+        @{ var sk1 = "("; var sk2 = ")";}
+        <h3 class="posTitle1">Фото<br /> <span class="posTitleSpan">@sk1 нажмите чтобы увеличить @sk2</span></h3>
+        <div id="posWrAllimg">
+    @{ var purl = @Html.PrevLink(Model.Tovar.TovarId);
+     var nurl = @Html.NextLink(Model.Tovar.TovarId);
+    }
+    @if (purl != null)
+    {
+        <a id="posPrevLink" href="@purl">
+            <div class="posLinkCell">
+                <span class="sPoint glyphicon glyphicon-arrow-left"></span><div class="posSpL">Предыдущая</div><div class="posSpL">модель</div>
+            </div>
+        </a>
+    
+    }
+            @if (nurl != null)
+            {
+                <a id="posNextLink" href="@nurl">
+                    <div class="posLinkCell">
+                        <span class="sPoint glyphicon glyphicon-arrow-right"></span><div class="posSpL">Следующая</div><div class="posSpL">модель</div>
+                    </div>
+                </a>
+            }
+           
+            <div id="firstPhoto" data="0"  onclick='Init2()' title="Нажмите чтобы рассмотреть">
+                <div data="@Model.PhotoIds.First()" class="wrAbsm1 shadowIns2">
+                    <img id="ff1" class="posMainImg" alt='@Model.Tovar.Name фото @Model.PhotoIds.First().ToString()' src="@Html.PSrc(Model.PhotoIds.First(),1)" />
+                </div>
+                <div class="wrAbsm2 shadowIns2">
+                    <img id="ff2" class="posMainImg" alt='@Model.Tovar.Name фото @Model.PhotoIds.First().ToString()' src="@Html.PSrc(Model.PhotoIds.First(),1)" />
+                </div>
+            </div>
+        </div>
+        @if (Model.PhotoIds.Count() > 1)
+        {
+            <div id="posOutwrMini">                
+                    @if (Model.PhotoIds.Count() > 4)
+                    {
+                        <div id="poswrPrev" onclick="topMini()">
+                            <span id="posPrevPointer" class="glyphicon glyphicon-chevron-left"></span>
+                        </div>
+                    }
+                    @{
+                    var tw = 25 * Model.PhotoIds.Count(); string style1 = tw.ToString().Replace(",", ".") + "%";
+                    var tw2 = Math.Round(100.0 / Model.PhotoIds.Count(),3)-0.01;
+                    string style2 = tw2.ToString().Replace(",", ".") + "%;";
+                    string style3 = (tw2 * 0.75).ToString().Replace(",", ".") + "%;";
+                    string allstyle = "width:" + style2 + "padding-bottom:" + style3; 
+                    }
+                <div id="wrposwr">
+                    <div id="posWrMini" style="width:@style1 ;">
+                        @{var ind = 0;}
+                        @foreach (var p in Model.PhotoIds)
+                        {
+                            var iid = "i" + p.ToString();
+                            var cl = "pallMini";
+                            if (p == Model.PhotoIds.First())
+                            {
+                                cl = "pselectedMini";
+                            }
+                            <div id="@iid" class="tCell" style="@allstyle">
+                                <div class="wrposMini @cl" data="@p" onclick='posShow(this,@ind)'>
+                                    <img id="@p" class="posMiniImg" alt='@Model.Tovar.Name фото @p.ToString()' src="@Html.PSrc(p,3).ToString()" />
+                                </div>
+                            </div>
+                            ind++;
+                        }
+                    </div>
+                </div>
+                <script>Minisizing()</script>
+                @if (Model.PhotoIds.Count() > 4)
+                {
+                    <div id="poswrNext" onclick="bottomMini()">
+                        <span id="posNextPointer" class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                }
+            </div>
+        }
+        
+    </section>    
+    <article class="mt3">
+        <h3 class="posTitle">Описание</h3>
+        @{var d = new HtmlString(articles[0]); var d2 = new HtmlString(articles[1]);}
+        @d
+        <p class="posDesc2">
+            @d2            
+        </p>
+        @{var url1 = Url.Action("Category", "Category", new { categName = Model.CategoryName.Replace(" ", "-") }); var url2 = url1 + "#3000";}        
+        @if (ViewBag.Torg != null)
+        {
+            var a = new HtmlString(ViewBag.Torg);
+            <div  class=" mt3">
+                @a
+            </div>
+        }
+        else
+        {
+        <p class="posDesc2">            
+            Подробно о том как заказать @catName читайте <a class="serviceLink2" href="@url2">здесь</a>.
+        </p>
+        }
+    </article>
+    
+    <nav id="posNav">       
+        @Html.PrevLink(Model.Tovar.TovarId, "anLink")        
+        <a class="anLink" href="@url1">Раздел «@Model.CategoryName»</a>        
+        @Html.NextLink(Model.Tovar.TovarId,"anLink")
+    </nav>
+    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+    <script src="//yastatic.net/share2/share.js"></script>
+    <div id="blockSI" class="ya-share22 divCenter">
+        <span id="si">Поделиться ссылкой</span><br />
+        <div class="ya-share2 divCenter" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,lj"></div>
+    </div>
+</div>

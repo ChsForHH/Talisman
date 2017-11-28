@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Talisman.WebUI.Models.SliderViewModel>     
+@{
+    var desc = Html.CeoMain().ToString();
+    ViewBag.Title = Html.Title().ToString();    
+    ViewBag.Description = desc;    
+    ViewBag.KeyWords = Html.KeyWords().ToString();    
+    ViewBag.MainUrl = "https://talis-mebel.ru" + Url.Action("Index", "Home");           
+}    
+<script src="~/Scripts/slider2.min.js"></script>   
+    <div id="dataSl">
+        @foreach (var d in Model)
+        {
+            <span class="dataCatName">@d.CtegoryName</span>
+            <span class="dataUrl">@d.PhotoUrl</span>
+        }
+        @foreach (var c in (new Talisman.Domain.Concrete.GData3()).Categories)
+        {
+            <span class="dataUrl2">@Url.Action("Category", "Category", new { categName = c.CategoryName.Replace(" ", "-") })</span>
+        }
+    </div>
+    <aside id="wrslider">
+        <div id="divSl" class="shadowIns" onmouseover="Slider.Stop1()" onmouseout="Slider.Play1()">
+            <a class="slLink" href="@Url.Action("Category", "Category", new { categName =Model.FirstOrDefault().CtegoryName})">
+                <div id="statH4" class="remH4">Кухни</div>
+                <div class="imgSl">
+                    <img src="@Model.FirstOrDefault().PhotoUrl" id="statImg" alt="@Model.FirstOrDefault().CtegoryName" />
+                </div>
+            </a>
+            <div id="AbsSl"></div>
+        </div>
+        <div id="slp">
+            <span id="stopPlay1" class="glyphicon glyphicon-pause con" aria-hidden="true"
+                  onclick="Slider.Stop()" title="Остановить"></span>
+            <span id="sp1" class="currentS cir" onclick="Show(0)"></span>
+            <span id="sp2" class="cir" onclick="Show(1)"></span>
+            <span id="sp3" onclick="Show(2)" class=" cir"></span>
+            <span id="sp4" onclick="Show(3)" class="cir">
+            </span><span id="sp5" onclick="Show(4)" class="cir"></span>
+        </div>
+    </aside>
+    <div id="about" class="mainBlock shadow mt2">        
+        @Html.MainArticle()
+    </div>
+    <article class="mainBlock shadow mt2">
+        <h2 class="H2chaptername">Как заказать мебель, этапы сотрудничества</h2>
+        @Html.Article2()
+    </article>
+    @{ Html.RenderAction("NewTovars");}
+

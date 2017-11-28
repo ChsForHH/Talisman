@@ -1,0 +1,78 @@
+﻿@model Talisman.WebUI.Models.TovarsAndPhotoViewModel
+    <div class="mainBlock2 shadow mt2">   
+        <article>
+            <header class="notMain">
+                <span class="chaptername2 shadow2">
+                    Анонс разделов каталога
+                </span>
+            </header>                        
+            @foreach (var c in Model.Categories)
+            {                
+                <section class="tcenter">
+                    <a class="viewAjaxLinkm" href="@Url.Action("Category", "Category", new { categName= c.CategoryName.Replace(" ","-") })" title="Перейти к разделу @c.CategoryName">
+                        <h2 class="chaptername4">
+                            @c.CategoryName
+                        </h2>
+                    </a>
+                    @{var arr = Model.TaP.Where(a => a.CategoryId == c.CategoryId).ToArray(); }
+                    @if (arr.Count() > 1)
+                    {
+                        for (int i = 0; i < arr.Count() - arr.Count() % 2; i += 2)
+                        {
+                            <div>
+                                <div class="tabPhotos">
+                                    @for (int j = 0; j < 2; j++)
+                                    {
+                                        <div class="cellPhoto">
+                                            <div class="blockTovarName">
+                                                <a class="viewAjaxLinkm" href="@Url.Action("Position","Category", new { catName=c.CategoryName.Replace(" ","-"), id=@arr[i+j].TovarId})" title="Нажмите чтобы перейти к описанию">
+                                                    <span class="glass">@arr[i + j].Name</span>
+                                                </a>
+                                            </div>
+                                            <a class="viewAjaxLinkm" href="@Url.Action("Position", "Category", new { catName = c.CategoryName.Replace(" ", "-"), id = @arr[i + j].TovarId })" title="Нажмите чтобы перейти к описанию">
+                                                <div class="wrAbsm shadowIns2">
+                                                    <img class="mainImagesm" src="~/Content/Images/pixel.png"
+                                                         data-path="@Html.PSrc(@arr[i+j].PhotoId,2).ToString()" alt="@arr[i+j].Name" />
+                                                </div>
+                                            </a>
+                                            @*<div class="blockTovarPrice">
+                                                    <span class="tovarPrice shadowIns3">
+                                                        @arr[i + j].Price 100 000руб
+                                                    </span>
+                                                </div>*@
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        }
+                    }
+                    @if (arr.Count() % 2 == 1)
+                    {
+                    <div id="lastTovar">
+                        <div class="blockTovarName">
+                            <a class="viewAjaxLinkm" href="@Url.Action("Position", "Category", new { catName = c.CategoryName.Replace(" ", "-"), id = @arr.LastOrDefault().TovarId })" title="Нажмите чтобы перейти к описанию">
+                                <span class="glass">
+                                    @arr.LastOrDefault().Name
+                                </span>
+                            </a>
+                        </div>
+                        <a class="viewAjaxLinkm" href="@Url.Action("Position", "Category", new { catName = c.CategoryName.Replace(" ", "-"), id = @arr.LastOrDefault().TovarId })" title="Нажмите чтобы перейти к описанию">
+                            <div class="wrAbsm shadowIns2">
+                                <img class="mainImagesm" src="~/Content/Images/pixel.png" alt="@arr.LastOrDefault().Name"
+                                     data-path="@Html.PSrc(arr.LastOrDefault().PhotoId,2).ToString()" />
+                            </div>
+                        </a>
+                        @*<div class="blockTovarPrice">
+                                <span class="tovarPrice shadowIns3">
+                                    @arr.LastOrDefault().Price 100 000руб
+                                </span>
+                            </div>*@
+                    </div>
+                    }
+                    <div>
+                        @Html.ActionLink("Перейти к разделу \"" + c.CategoryName + "\"...", "Category", "Category", new { categName = c.CategoryName.Replace(" ", "-") }, new { @class = "anLink" })
+                    </div>
+                </section>
+            }
+        </article>
+</div>

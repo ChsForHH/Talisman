@@ -1,0 +1,39 @@
+﻿@model Talisman.WebUI.Models.LoginViewModel
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Loginnv3.css" rel="stylesheet" type="text/css" />    
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />   
+    <title>Login</title>
+</head>
+<body id="main">        
+    <div id="wrap">
+        <div id="tc">
+            <div id="loginW">
+                <h3 id="logH">Вход</h3>
+                @Html.ValidationSummary()
+                @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken();
+                    <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+                    <div class="form-group">
+                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", placeholder = "Логин" })
+                    </div>
+                    <div class="form-group">
+                        @Html.PasswordFor(x => x.Password, new { @class = "form-control", placeholder = "Пароль" })
+                    </div>
+                    <button class="btn btn-primary  type=" submit">Войти</button>
+                }
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('tc').style.height = document.documentElement.clientHeight+'px';
+    </script>
+</body>
+</html>

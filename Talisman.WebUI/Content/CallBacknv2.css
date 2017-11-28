@@ -1,0 +1,95 @@
+﻿div#backCall{   
+    position:absolute;
+    right: 1.5%;
+    top:2px;    
+    background-color: #70778a;
+    border-radius: 3px;
+    text-shadow: none;
+    font-family: Philosopher;
+    padding:0 5px;    
+    -webkit-box-shadow:0 0 3px #fff inset,0 0 1px #000;
+            box-shadow:0 0 3px #fff inset,0 0 1px #000;
+            color:#ebebea;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    cursor:pointer;
+    z-index:3005;
+}
+#CallBackLink{     
+    display:inline-block;
+    color:#ebebea;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    cursor:pointer;
+}
+div#cbBC   {
+    text-align:right;
+    margin-right:5px;
+    font-size:25px;
+    color:white;
+}
+span.cbB{
+    cursor:pointer;
+    text-shadow:1px 1px 2px black;
+}
+div#outwr{
+    display:none;
+    
+}
+div#wrCallBack{
+    margin:0;    
+    text-shadow:none;
+    text-align:center;
+       
+}
+div#CallBack{    
+    width:100%;
+    margin:0 0px 3px 0px;
+
+    text-shadow:none;   
+}
+#CallBack input{
+    display:inline-block;
+    width:100%;
+    background-color:#fafae7;   
+    border:solid 1px grey;   
+}
+#CallBack input:focus{
+     -webkit-box-shadow:0 0 3px white;
+             box-shadow:0 0 3px white;
+}
+#CallBack button{
+    border:1px solid #70778a;
+}
+#CallBack ul {
+    text-align: left;
+    margin:0 10px;
+    padding: 0 10px;
+}
+#CallBack ul li{   
+    padding:0 0 0px 0;  
+}
+div.cbOk{
+    color:green;
+    background-color:white;
+    margin-bottom:10px;
+    border-radius:3px;
+}
+div.cbErr{
+    color:red;
+    background-color:#f4dede;
+    margin-bottom:10px;
+    border-radius:3px;
+}
+/*--------------------------------------медиа-------------------------------*/
+@media(min-width:500px) {
+    div#backCall {
+        padding:0 6px;
+    }
+}
+/*----------------------------ошибки---------------------*/
+#CallBack input[type=password],#CallBack input[type=text]{    
+    border: 1px solid #33313f;
+}
+#CallBack input.input-validation-error,textarea.input-validation-error {
+    border: 1px solid #870a0a;
+    background-color: #fee;
+}

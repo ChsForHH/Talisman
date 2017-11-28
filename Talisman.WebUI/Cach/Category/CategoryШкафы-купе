@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Купить Шкафы-купе на заказ в Москве недорого Шкаф-купе  заказать по цена производителя Каталог Шоу-рум Изготовление корпусной мебели" />
+    <meta name="yandex-verification" content="cea5a8111ef7aa23" />      
+    <meta name="geo.placename" content="город Москва, Россия" />    
+    <meta name="geo.region" content="RU-город Москва" />
+    <link rel="canonical" href="https://talis-mebel.ru/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5" />        <meta name="keywords" content="купить,шкафы-купе,на заказ,заказать,в москве,мебель,недорого" />    <link href="/Content/SiteMain3.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />        
+        <link rel="shortcut icon" href="/Content/Images/logo333.png" type="image/png" />     
+    <title>Купить шкаф-купе в Москве. Шкафы-купе на заказ.</title>  
+    <script src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="/Scripts/modernizr-2.6.2.js"></script>
+    <script src="/Scripts/jquery.scrollTo.min.js"></script>
+    <script src="/Scripts/MainScript2.min.js"></script>       
+</head>
+<body>    
+    <header id="header">
+        <div id="contactsHead">
+            <div class="contBlock">
+                <span class="contItem"><strong>Шоу-рум&nbsp;в&nbsp;Москве:&nbsp;</strong></span> Дмитровское&nbsp;шоссе&nbsp;д.100&nbsp;ст.2<br/>Бизнес-центр&nbsp;<b>«НОРД-ХАУС»</b><br/>Тел.&nbsp;8-(969)-0867334
+            </div>
+        </div>
+        <a href="/" id="headLink">
+            <div id="wrImgLogo">
+                <img id="logo" src="/Content/Images/l2.png" alt="логотип" />
+            </div>
+            <div id="wrTextLogo">
+                <div id="mainTitle">
+                    ТАЛИСМАН-МЕБЕЛЬ
+                </div>
+                <p id="logoword">
+                    Изготовление корпусной мебели на заказ
+                </p>
+            </div>
+        </a>
+        <div class="endfloat"></div>
+    </header>
+    <nav id="wrnav" class="menuFS">
+        <div id="navbar">
+            <div id="buttonUp" class="bUp FsSmall lnH">
+                Наверх ^
+            </div>
+            <div id="menuCatalog" class="anav2 lnH">
+                <span class="spAnav1 menuFs">Каталог</span>
+                <div id="catalog">
+<ul class="ulLeftNavbar">
+        <li>
+            <a class="lnLink" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8">
+                <span class="leftMenuFont">Кухни</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5">
+                <span class="leftMenuFont">Прихожие</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5">
+                <span class="leftMenuFont">Шкафы-купе</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B5">
+                <span class="leftMenuFont">Гостиные</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">
+                <span class="leftMenuFont">Торговое оборудование</span>
+            </a>
+        </li>
+</ul>
+
+                </div>
+            </div>
+            <a href="/" class="anav1 lnH">
+                <span class="spAnav1 menuFs"><span class="glyphicon glyphicon-home"></span></span>
+            </a>
+            <a href="/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Услуги</span>
+            </a>
+            <a href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Статьи</span>
+            </a>
+            <a href="/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Контакты</span>
+            </a>
+            <a class="anav1 lnH" href="/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B">
+                <span class="spAnav1 menuFs">Отзывы</span>
+            </a>
+            <span class="unVis FsSmall">Заказать обратный звонок</span>
+            <div id="backCall">
+                <span id="CallBackLink" class="FsSmall lnH" onclick="CBShow()">Заказать обратный звонок</span>
+                <div id="outwr">                    
+                </div>
+            </div>
+        </div>
+        <div id="navbar2" class="menuFs">
+            <span id="picList" class="lnH" onclick="ShowLeft()" title="Показать боковое меню">+</span>
+            <a href="/" class="anav2 mlauto">
+                <span class="spAnav1"><span class="glyphicon glyphicon-home"></span></span>
+            </a>
+            <a href="/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8" class="anav2 lnH">
+                <span class="spAnav1">Услуги</span>
+            </a>
+            <a href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8" class="anav2 lnH">
+                <span class="spAnav1">Статьи</span>
+            </a>
+            <a href="/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B" class="anav2 lnH">
+                <span class="spAnav1">Контакты</span>
+            </a>
+            <a class="anav2 lnH" href="/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B">
+                <span class="spAnav1">Отзывы</span>
+            </a>
+        </div>
+        <div class="endfloat"></div>
+    </nav>
+    <div id="wrMain">
+        <aside id="wr">
+            <div id="leftNavbar" class="shadowIns menuFS">
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Каталог</div>
+<ul class="ulLeftNavbar">
+        <li>
+            <a class="lnLink" href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8">
+                <span class="leftMenuFont">Кухни</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5">
+                <span class="leftMenuFont">Прихожие</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5">
+                <span class="leftMenuFont">Шкафы-купе</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B5">
+                <span class="leftMenuFont">Гостиные</span>
+            </a>
+        </li>
+        <li>
+            <a class="lnLink" href="/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">
+                <span class="leftMenuFont">Торговое оборудование</span>
+            </a>
+        </li>
+</ul>
+
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Мы в соцсетях</div>
+                    <div class="socialNetsImages">
+                        <a class="socialNetsLink" href="https://www.facebook.com/groups/1789091811364810/?fref=ts" target="_blank">
+                            <img class="socIco" src="/Content/Images/fb_ico.png" alt="faceBook" title="Facebook" />
+                        </a>
+                        <a class="socialNetsLink" href="https://vk.com/club132045350" target="_blank">
+                            <img class="socIco" src="/Content/Images/vk_ico.png" alt="ВКонтакте" title="ВКонтакте" />
+                        </a>
+                        <a class="socialNetsLink" href="https://www.instagram.com/talisman_mebel/" target="_blank">
+                            <img class="socIco" src="/Content/Images/inst_ico.png" alt="Instagram" title="Instagram" />
+                        </a>
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Мы на карте Москвы</div>
+                    <div id="cardWrImg">
+                        <a href="/Контакты#1000" class="mapLink">
+                            <img id="imgCard" src="/Content/Images/talcard.jpg" alt="яндекс-карта" title="яндекс-карта" />
+                        </a>
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Новости</div>
+                    <div class="wrLeftBlock">
+                                        <a class="newsLink" href="/Статьи/Как-выбрать-кухонный-гарнитур">09.06.2017 <br>
+                Добавлена статья &quot;Как выбрать кухонный гарнитур&quot;</a>            
+                <a class="newsLink" href="/Кухни/модель-69">01.06.2017 <br>
+                Пополнение каталога. Добавлена кухня модель 69</a>            
+                <a class="newsLink" href="/Статьи/Шесть-видов-столешниц-для-кухни">03.05.2017 <br>
+                Добавлена статья &quot;Шесть видов столешниц для кухни&quot;</a>            
+                <a class="newsLink" href="/Статьи/Как-выбрать-фасад-кухни-советы-дизайнеров">02.05.2017 <br>
+                Добавлена статья &quot;Как выбрать фасад кухни: советы дизайнеров&quot;</a>            
+                <a class="newsLink" href="/FeedBack/List">12.04.2017 <br>
+                Добавлен новый отзыв</a>            
+
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Статьи</div>
+                    <div class="wrLeftBlock">
+    <a class="newsLink" href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9A%D0%B0%D0%BA-%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D0%BA%D1%83%D1%85%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D1%80%D0%BD%D0%B8%D1%82%D1%83%D1%80">Как выбрать кухонный гарнитур?</a><a class="newsLink" href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%9A%D0%B0%D0%BA-%D0%B2%D1%8B%D0%B1%D1%80%D0%B0%D1%82%D1%8C-%D1%84%D0%B0%D1%81%D0%B0%D0%B4-%D0%BA%D1%83%D1%85%D0%BD%D0%B8-%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD%D0%B5%D1%80%D0%BE%D0%B2">Как выбрать фасад кухни: советы дизайнеров.</a><a class="newsLink" href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A8%D0%B5%D1%81%D1%82%D1%8C-%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2-%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86-%D0%B4%D0%BB%D1%8F-%D0%BA%D1%83%D1%85%D0%BD%D0%B8">Шесть видов столешниц для кухни</a>
+
+                    </div>
+                </nav>
+            </div>
+        </aside>
+        <main id="main" class="mainFont">
+            
+
+<div class="mainBlock shadow">
+       
+    <div class="colCl">
+
+        <h1 class="chapterName3">                     
+        Шкафы-купе на заказ
+ </h1> 
+<article>
+<p>
+<img src="/Content/Images/kupe.jpg"/>
+Благодаря функциональности, надежности и разнообразию выбора, шкафы-купе и гардеробные имеют огромную популярность во всем мире. Использование раздвижных систем открывания дверей шкафов-купе позволяют существенно экономить пространство комнаты, что позволяет расширить возможности использования данных конструкций даже в не больших помещениях.
+</p>
+<p>
+Шкафы-купе в прихожей позволяют разместить множество вещей: одежду, обувь, головные уборы или другие предметы гардероба. шкафы-купе с зеркальными дверями могут еще и зрительно расширить пространство прихожей.
+</p>
+<p>
+Шкаф-купе в спальне тоже считается очень рациональным и недорогим вариантом. С его помощью можно зонировать помещение спальни и отделить его часть, тем самым создав небольшую гардеробную. Зеркальные двери шкафа с пескоструйным рисунком или двери со вставками из ротанга, бамбука или других натуральных материалов помогут создать в спальне неповторимую атмосферу уюта и безмятежности.Мы убеждены, что шкафы-купе на заказ от компании «Талисман-Мебель» - это вариант оптимального решения для вашего дома.
+</p>
+</article>
+    </div>
+</div>
+    <article class="mainBlock2 shadow mt2">    
+        <h2 class="type2">            
+            <span class="chaptername2 shadow2">
+                Каталог
+            </span>
+        </h2>       
+    <p class="catDesc">
+
+        
+<p class="catDesc">       
+Предлагаем вашему вниманию фото и описания образцов нашей продукции. Обращаем ваше внимание на то, что все шкафы-купе, представленные здесь, изготавливались индивидуально на заказ, с учетом размеров, конфигурации и функционального предназначения помещения, пожеланий заказчиков и особенностей дизайна интерьера. У нас вы можете купить (заказать) шкаф-купе, идеально подходящий именно для вас. <br /><br />
+Чтобы перейти к описанию конкретной модели шкафа-купе, просто кликайте по фотографиям или заголовкам.
+</p>
+    </p>
+
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="71">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-71" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 70
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-71" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 70" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/198s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="72">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-72" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 72
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-72" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 72" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/200s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="73">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-73" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 73
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-73" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 73" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/201s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="74">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-74" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 74
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-74" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 74" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/202s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="75">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-75" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 75
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-75" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 75" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/203s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="78">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-78" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 77
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-78" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 77" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/207s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="79">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-79" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 79
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-79" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 79" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/208s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="80">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-80" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 80
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-80" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 80" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/210s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="81">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-81" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 81
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-81" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 81" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/211s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="82">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-82" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 82
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-82" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 82" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/213s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="83">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-83" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 83
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-83" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 83" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/216s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="84">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-84" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 84
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-84" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 84" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/219s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="85">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-85" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 85
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-85" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 85" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/222s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="86">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-86" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 86
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-86" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 86" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/223s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="87">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-87" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 87
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-87" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 87" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/225s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="88">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-88" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 88
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-88" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 88" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/226s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="89">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-89" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 89
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-89" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 89" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/229s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="90">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-90" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 90
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-90" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 90" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/231s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="91">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-91" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 91
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-91" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 91" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/232s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="92">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-92" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 92
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-92" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 92" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/234s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="93">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-93" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 93
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-93" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 93" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/238s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="94">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-94" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 94
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-94" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 94" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/239s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="95">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-95" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 95
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-95" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 95" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/242s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="96">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-96" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 96
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-96" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 96" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/243s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="97">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-97" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 97
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-97" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 97" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/244s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="98">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-98" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 98
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-98" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 98" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/245s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="100">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-100" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 100
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-100" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 100" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/253s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="101">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-101" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 101
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-101" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 101" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/255s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="102">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-102" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 102
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-102" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 102" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/256s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="103">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-103" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 103
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-103" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 103" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/257s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="104">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-104" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 104
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-104" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 104" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/258s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="105">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-105" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 105
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-105" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 105" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/259s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="106">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-106" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 106
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-106" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 106" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/260s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="107">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-107" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 107
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-107" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 107" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/261s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+        <div class="tabPhotos">
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="108">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-108" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 108
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-108" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 108" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/262s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="109">
+                        <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-109" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                 Модель 109
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-109" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            
+                                <img class="mainImagesm" alt="Шкаф-купе модель 109" src="/Content/Images/pixel.png" data-path="/Content/TovarPhotos/263s1.jpeg" />
+                            
+                        </div>
+                    </a>
+                    
+                </div>
+        </div>
+            <div id="lastTovar">
+            <div class="blockTovarName">
+                <a class="viewAjaxLinkm" href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-110" title="Нажмите чтобы перейти к описанию">
+                    <span class="glass">
+                         Модель 110
+                    </span>
+                </a>
+            </div>
+            <a class="viewAjaxLinkm"
+               href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-110" title="Нажмите чтобы перейти к описанию">
+                <div class="wrAbsm shadowIns2">
+                    
+                        <img class="mainImagesm" alt="Шкаф-купе модель 110" src="/Content/Images/pixel.png"
+                             data-path="/Content/TovarPhotos/265s1.jpeg" />
+                    
+                </div>
+            </a>
+            
+        </div>
+</article>
+
+
+        </main>
+        <div class="endfloat"></div>
+    </div>
+    <footer>
+        <nav class="footChapter">
+            <a href="/">Главная страница</a>
+            <a href="/%D0%A3%D1%81%D0%BB%D1%83%D0%B3%D0%B8">Услуги</a>
+            <a href="/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8/%D0%A8%D0%B5%D1%81%D1%82%D1%8C-%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2-%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%88%D0%BD%D0%B8%D1%86-%D0%B4%D0%BB%D1%8F-%D0%BA%D1%83%D1%85%D0%BD%D0%B8">Статьи</a>
+            <a href="/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B">Контакты</a>
+            <a href="/%D0%9E%D1%82%D0%B7%D1%8B%D0%B2%D1%8B">Отзывы</a>
+        </nav>
+        <nav class="footChapter">
+            <a href="/%D0%9A%D1%83%D1%85%D0%BD%D0%B8">Кухни</a>
+            <a href="/%D0%9F%D1%80%D0%B8%D1%85%D0%BE%D0%B6%D0%B8%D0%B5">Прихожие</a>
+            <a href="/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B-%D0%BA%D1%83%D0%BF%D0%B5">Шкафы-купе</a>
+            <a href="/%D0%93%D0%BE%D1%81%D1%82%D0%B8%D0%BD%D1%8B%D0%B5">Гостиные</a>
+            <a href="/%D0%A2%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%BE%D0%B5-%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Торговое оборудование</a>
+        </nav>
+        <div class="footAbout">
+            <div class="footChapterName">Компания «Талисман-Мебель»</div>
+            <p>
+                Производство корпусной мебели в Москве. Мебель от производителя по ценам производителя.
+                Если вы хотите купить или заказать мебель в Москве по доступным ценам - мы можем предложить вам производство кухонь,
+                гостиных, прихожих, шкафов-купе и торгового оборудования для вашего бизнеса.
+                Команда профессионалов создаст для вас индивидуальный дизайн и проконтролирует качество выполнения работ на
+                всех этапах - от создания дизайна до сборки. Мебель на заказ от компании «Талисман-Мебель» - это Ваш правильный выбор.
+            </p>
+        </div>
+        <div class="footChapter">
+            <span>Адрес: Дмитровское шоссе д.100 ст.2 Бизнес-центр «НОРД-ХАУС»</span>
+            <span class="glyphicon glyphicon-phone-alt"></span><span>8-(969)-0867334</span>
+            <span class="glyphicon glyphicon-envelope"></span><span>talismebel@gmail.com</span>
+        </div>
+        <div class="footChapter">
+            <span>&copy; Талисман мебель talis-mebel.ru 2016-2017</span>
+            <span id="designInfo">Designed by <a class="footMailLink" href="mailto:chsg73@gmail.com">Chs</a></span>
+        </div>
+    </footer>    
+</body>
+</html><!--cach-->

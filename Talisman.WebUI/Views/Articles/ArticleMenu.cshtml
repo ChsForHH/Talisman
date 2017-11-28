@@ -1,0 +1,26 @@
+﻿@model Talisman.WebUI.Models.ArticleMenuViewModel
+
+<script>
+    $(document).ready(function () { Service(); });   
+</script>
+    <nav>
+        <ul id="articleList" class="shadowIns2 paddingMiddle">
+            @foreach (var l in Model.List)
+            {
+                if (l.Id == Model.CurrentId)
+                {
+                    <li class="liService" data-num="1">
+                        <span class="articleLink">@l.ArticleName</span>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        @Html.ActionLink(l.ArticleName, "Article", new { artName = l.ArticleName.Replace(' ', '-').Replace("?", "").Replace(":", "").Replace("`", "").Replace(".", "") }, new { @class = "articleLink" })
+                    </li>
+                }
+            }
+        </ul>
+    </nav>
+
+

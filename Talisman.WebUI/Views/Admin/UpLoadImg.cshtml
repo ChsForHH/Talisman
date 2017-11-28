@@ -1,0 +1,29 @@
+﻿
+@model IEnumerable<string>
+@{
+    ViewBag.Title = "UpLoadImg";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>UpLoadImg</h2>
+@foreach (var f in Model)
+{
+    <div>@f</div>
+}
+@*<div id="loadPhotoForm">
+    @using (Html.BeginForm("UpLoadImg", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        
+        <div class="form-group ">
+            <label for="image">Загрузить</label>
+            <input name="img" id="file1" type="file" 
+                   title=" выбрать файлы" />
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" type="submit">Сохранить</button>
+        </div>
+
+
+    }
+</div>*@
+

@@ -1,0 +1,7 @@
+﻿@model Talisman.WebUI.Models.ArticleMenuViewModel
+
+    @foreach (var a in Model.List)
+    {                 
+        @Html.ActionLink(a.ArticleName, "Article", "Articles", new { artName = a.ArticleName.Replace(' ', '-').Replace("?", "").Replace(":", "").Replace("`", "").Replace(".", "") }, new { @class = "newsLink" })       
+    }
+

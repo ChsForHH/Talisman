@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Talisman.Domain.Entities.FeedBack>
+
+@{
+    ViewBag.Title = "FeedBack";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<div class="mainBlock1">
+    <h3 class="chaptername1">Отзывы</h3>
+    <div class="@TempData["cl"]">
+        @TempData["mess"]
+    </div>
+    <div id="wrFeedBacks">
+        @if (Model.Count() == 0)
+        {
+            <div class="fbBody">
+                Пока нет отзывов.
+            </div>
+        }
+        else
+        {
+
+            foreach (var f in Model)
+            {
+                <div id="updId">
+                    <div class="fbBody">
+                        <div class="feedInfo">
+                            <span class="sender">@f.Name</span>, <span class="fbDate">@f.Date.ToShortDateString()</span>
+                            <span class="sender">@f.Email</span>
+                        </div>
+                        @*<div class="feedName">
+
+                            </div>*@
+                        <div class="feedMess">
+                            @f.Message
+                        </div>
+                    </div>
+                    <div>
+                        @Html.ActionLink("Редактировать", "EditFeedBack", "Admin", new { id = f.Id }, new { @class="btn btn-success btn-xs", style="display:inline-block;margin-left:2%;"})
+                        @using (Html.BeginForm("DeleteFeedBack", "Admin", FormMethod.Post, new { style = "display:inline-block;" }))
+                        {
+                            <input type="hidden" name="id" value="@f.Id" />
+                            <button type="submit" class="btn btn-danger btn-xs">Удалить</button>
+                        }
+                    </div>
+                </div>
+            <hr />
+            }
+
+            }
+    </div>
+    @*<div class="fbBody">
+        @{Html.RenderAction("AddFeedBack", "FeedBack");}
+    </div>*@
+</div>

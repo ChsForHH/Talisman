@@ -1,0 +1,121 @@
+﻿@model Talisman.WebUI.Models.CategoryViewModel
+
+@{    
+    string cName = "";
+    string pos = "";
+    switch (Model.Category.CategoryId)
+    {
+        case 1: cName = "Кухня"; pos = "Модель"; break;
+        case 2: cName = "Прихожая"; pos = "Модель"; break;
+        case 3: cName = "Шкаф-купе"; pos = "Модель"; break;
+        case 4: cName = "Гостиная"; pos = "Модель"; break;
+        case 5: cName = "Торговое оборудование"; pos = "Позиция"; break;
+        default: cName = Model.Category.CategoryName; pos = "Модель"; break;
+    }
+    ViewBag.Title = Model.Category.Title;
+    ViewBag.Description = Model.Category.CEO;
+    ViewBag.KeyWords = Model.Category.KeyWords;
+    ViewBag.MainUrl = "https://talis-mebel.ru" + Url.Action("Category", "Category", new { categName = Model.Category.CategoryName.Replace(" ", "-") });
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string[] articles=new string[2];
+    var ar= Model.Category.Article.Split('|');
+    if (ar.Length > 0)
+    {
+        articles[0] = ar[0];
+    }
+    else
+    {
+        articles[0] = "";
+    }
+    if (ar.Length > 1)
+    {
+        articles[1] = ar[1];
+    }
+    else
+    {
+        articles[1] = "";
+    }    
+    }
+
+<div class="mainBlock shadow">
+       
+    <div class="colCl">
+        @{ var a = new HtmlString(articles[0]);}
+        @a
+    </div>
+</div>
+    <article class="mainBlock2 shadow mt2">    
+        <h2 class="type2">            
+            <span class="chaptername2 shadow2">
+                Каталог
+            </span>
+        </h2>       
+    <p class="catDesc">
+        @{ a = new HtmlString(articles[1]);}
+        @a
+    </p>
+    @{ var arr = Model.Tovars.ToArray(); }
+    @for (int i = 0; i < Model.Tovars.Count() - Model.Tovars.Count() % 2; i += 2)
+    {
+        <div class="tabPhotos">
+            @for (int j = 0; j < 2; j++)
+            {
+                <div class="cellPhoto">
+                    <div class="blockTovarName" id="@arr[i + j].TovarId">
+                        <a class="viewAjaxLinkm" href="@Url.Action("Position","Category", new { catName=Model.Category.CategoryName.Replace(" ","-"), id=@arr[i+j].TovarId})" title="Нажмите чтобы перейти к описанию">
+                            <span class="glass">
+                                @arr[i + j].Name.Replace(cName,"").Replace("модель",pos)
+                            </span>
+                        </a>
+                    </div>
+                    <a class="viewAjaxLinkm"
+                       href="@Url.Action("Position", "Category", new { catName = Model.Category.CategoryName.Replace(" ", "-"), id = @arr[i + j].TovarId })" title="Нажмите чтобы перейти к описанию">
+                        <div class="wrAbsm shadowIns2">
+                            @*<div class="SizeMainImg">*@
+                                <img class="mainImagesm" alt="@arr[i+j].Name" src="~/Content/Images/pixel.png" data-path="@Html.PSrc(@arr[i+j].PhotoId,2).ToString()" />
+                            @*</div>*@
+                        </div>
+                    </a>
+                    @*<div class="blockTovarPrice">
+                            <span class="tovarPrice shadowIns3">
+                                @arr[i + j].Price 100 000руб
+                            </span>
+                        </div>*@
+                </div>
+            }
+        </div>
+    }
+    @if (Model.Tovars.Count() % 2 == 1)
+    {        
+        <div id="lastTovar">
+            <div class="blockTovarName">
+                <a class="viewAjaxLinkm" href="@Url.Action("Position", "Category", new { catName = Model.Category.CategoryName.Replace(" ", "-"), id = @Model.Tovars.LastOrDefault().TovarId })" title="Нажмите чтобы перейти к описанию">
+                    <span class="glass">
+                        @Model.Tovars.LastOrDefault().Name.Replace(cName, "").Replace("модель", pos)
+                    </span>
+                </a>
+            </div>
+            <a class="viewAjaxLinkm"
+               href="@Url.Action("Position", "Category", new { catName = Model.Category.CategoryName.Replace(" ", "-"), id = @Model.Tovars.LastOrDefault().TovarId })" title="Нажмите чтобы перейти к описанию">
+                <div class="wrAbsm shadowIns2">
+                    @*<div class="SizeMainImg">*@
+                        <img class="mainImagesm" alt="@Model.Tovars.LastOrDefault().Name" src="~/Content/Images/pixel.png"
+                             data-path="@Html.PSrc(@Model.Tovars.LastOrDefault().PhotoId,2).ToString()" />
+                    @*</div>*@
+                </div>
+            </a>
+            @*<div class="blockTovarPrice">
+                    @{var prs = "100 000руб";}
+                    <span class="tovarPrice shadowIns3">
+                        @Model.Tovars.LastOrDefault().Price @prs
+                    </span>
+                </div>*@
+        </div>
+    }
+</article>
+@*@if (Model.Category.CategoryId != 5) { 
+<article id="3000" class="mainBlock2 shadow mt2">
+    @{ a= new HtmlString(articles[2]);}
+    @a
+</article>
+}*@

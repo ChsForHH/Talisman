@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<title>@ViewBag.Title</title>*@
+    <link href="~/Content/admin3.css" rel="stylesheet" type="text/css" />
+    @*<link href="~/Content/CallBack.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Feedback.css" rel="stylesheet" type="text/css" />
+    @*<script src="~/Scripts/jquery-1.10.2.min.js"></script>*@
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    @*<script src="~/Scripts/modernizr-2.6.2.js"></script>*@
+    @*<script src="~/Scripts/slider.js"></script>*@
+    <title>Администрирование</title>
+</head>
+<body>
+    <div id="wrAdmin">
+        <div id="mainAdmin">
+            <div class="panel panel-default" id="pan1">
+                <div class="panel-heading" id="panHead">
+                    <h2 id="adminTitle">Панель администратора</h2>
+                </div>
+                <div id="adminNav">
+                    @Html.ActionLink("Вернуться на сайт", "SignOut", "Account", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Категории ассортимента", "ListCategories", "Admin", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Услуги", "Services", "Admin", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Статьи", "ArticlesAdmin", "Admin", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Новости", "News", "Admin", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Отзывы", "FeedBack", "Admin", null, new { @class = "btn btn-default" })                    
+                    @Html.ActionLink("Разное", "Over", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Сменить логин и-или пароль", "Change","Account", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Сгенерировать sitemap.xml", "CreateSM", null, new { @class = "btn btn-default" })
+                    @*@Html.ActionLink("Тест картинок", "UpLoadImg", null, new { @class = "btn btn-default" })*@
+                </div>
+                <div class="panel-body">
+                    @RenderBody()
+                </div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

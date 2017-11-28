@@ -1,0 +1,9 @@
+﻿@model IEnumerable<int>
+
+<div class="blockTovarPhotos">
+    @foreach (var p in Model)
+    {
+        @*<img src="@Url.Action("GetImage","Admin",new{ photoId=p })" class="mainImages "  />*@
+        <img src="~/Content/Images/kichens/k5-1.jpg" class="mainImages " />
+    }
+</div>

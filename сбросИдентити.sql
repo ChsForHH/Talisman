@@ -1,0 +1,1 @@
+﻿DBCC CHECKIDENT (photos, RESEED, 0)

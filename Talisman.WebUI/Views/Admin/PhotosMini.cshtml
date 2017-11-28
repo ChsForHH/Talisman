@@ -1,0 +1,35 @@
+﻿
+@model int
+
+<div id="adminPhotosMini">
+    @*@if (Model.Count() == 0)
+    {
+        <span id="noListPhotos">Нет фотографий</span>
+    }
+    else
+    {
+        <table>
+            <tr>
+
+
+                @foreach (var i in Model)
+                {
+                    <td>
+                        <img class="adminMiniPhoto" src="@Url.Action("GetImage", "Admin", new { photoId = i })" height="80" />
+                    </td>
+                }
+
+
+            </tr>
+        </table>*@
+    @if (Model == 0)
+    {
+        @:Нет фото
+    }
+    else
+    {
+        <img class="adminMiniPhoto" src="@Html.PSrc(Model,3).ToString()" height="150" />
+    }
+    
+</div>
+

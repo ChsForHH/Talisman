@@ -1,0 +1,37 @@
+﻿@model Talisman.WebUI.Models.LoginViewModel
+@{
+    ViewBag.Title = "Change";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<div id="loginWn">
+    @if (ViewBag.resultOk != null)
+    {
+        <div class="resOk">
+            @ViewBag.resultOk
+        </div>
+    }
+    @if (ViewBag.resultFail != null)
+    {
+        <div class="resFail">
+            @ViewBag.resultFail
+        </div>
+    }
+    <h3 id="logH">Смена логина и пароля</h3>
+    @Html.ValidationSummary()
+    @using (Html.BeginForm("Change", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken();
+    <div class="form-group">
+        @Html.LabelFor(n=>n.UserName,"Новый логин:")
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+        @Html.LabelFor(n => n.Password, "Новый пароль:")
+        @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+    </div>
+        <button class="btn btn-primary  type=" submit">Сохранить</button>
+        @Html.ActionLink("Вернуться", "ListCategories", null, new { @class="btn btn-default"})
+    }
+</div>
+
+    
+

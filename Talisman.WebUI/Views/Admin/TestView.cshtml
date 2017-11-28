@@ -1,0 +1,19 @@
+﻿@model string[]
+@{
+    ViewBag.Title = "TestView";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>TestView</h2>
+<div>
+    <img src="@Model[0]" style="max-width:100%;"/>
+    <div>
+        <p>Вторая картинка:</p>
+        <img src="@Model[1]" />
+    </div>
+    <div>
+        <p>Третья картинка:</p>
+        <img src="@Model[2]" />
+    </div>
+</div>
+

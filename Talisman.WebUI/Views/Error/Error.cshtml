@@ -1,0 +1,27 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ошибка</title>
+</head>
+<body>
+    <div> 
+        <h2>
+            Во время выполнения запроса произошла ошибка.
+        </h2>
+        <h3>@Model.Exception.GetType()</h3>
+        <div>
+            <span style="color:#f00">@Model.Exception.Message</span>
+            <pre style="overflow: auto; background-color: #FFFB97; color: #134D82; font-size: 11px;">@Model.Exception.StackTrace</pre>
+        </div>
+    </div>
+</body>
+</html>

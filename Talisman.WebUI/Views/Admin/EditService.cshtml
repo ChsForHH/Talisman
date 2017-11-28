@@ -1,0 +1,35 @@
+﻿@model Talisman.Domain.Entities.Service
+
+@{
+    ViewBag.Title = "Редактирование услуги";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h3>Редактирование услуги @Model.ServiceName</h3>
+
+@using (@Html.BeginForm("EditService", "Admin", FormMethod.Post))
+{
+    @Html.HiddenFor(c => c.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.ServiceName, "Название услуги")
+        @Html.TextBoxFor(c => c.ServiceName, new { @class = "form-control" })
+
+        @Html.LabelFor(c => c.Article, "Описание")
+        @Html.TextAreaFor(c => c.Article, new { @class = "form-control", rows = 15 })
+        @*@Html.HiddenFor(a => a.Author)
+        @Html.HiddenFor(a => a.Id)
+        @Html.HiddenFor(a => a.Date)*@
+        @Html.LabelFor(c => c.Visible, "Отображение на сайте")
+        @Html.CheckBoxFor(c => c.Visible, new { @class = "form-control" })
+        @*@Html.LabelFor(c => c.)
+            @Html.TextBoxFor(c => c.Rem)*@
+    </div>
+    <button class="btn btn-success">Сохранить</button>
+}
+
+
+<div class="adminExit">
+    @Html.ActionLink("Вернуться к списку услуг", "Services", null, new { @class = "btn btn-default" })
+</div>
+

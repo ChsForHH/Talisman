@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Talisman.Domain.Entities.Service>
+
+@{
+    ViewBag.Title = "Услуги компании «Талисман-мебель»";
+    ViewBag.Description = "Описание услуг компании Талисман мебель изготовление корпусной мебели на заказ в Москве купить мебель доставка сборка гарантийное обслуживание условия оплаты";
+    ViewBag.MainUrl = "https://talis-mebel.ru" + Url.Action("List", "Services");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.StyleF = "/Content/Services.min.css";
+}
+<script>
+    $(document).ready(function () { Service(); });    
+</script>
+<div class="mainBlock shadow white" >
+    <h1 class="chapterName3">Подробное описание предоставляемых услуг</h1>   
+    <section>
+        <ul id="serviceList2" class="shadowIns paddingMiddle">
+            @{int id = 1;}
+            @foreach (var s in Model)
+            {
+                <li class="liService" data-num="@id">
+                    @s.ServiceName
+                </li>
+                id++;
+            }
+        </ul>
+    </section>
+</div>
+@{id = 1;}
+    @foreach (var s in Model)
+    {
+        <section id="@id" class="mainBlock shadow white mt2">
+            <h2 class="cerviceTitle">@s.ServiceName</h2>
+            <p class="serviceType">
+                @{var hs = new HtmlString(s.Article);}
+                @hs
+            </p>
+        </section>
+        id++;
+    }
+

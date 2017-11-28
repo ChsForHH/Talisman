@@ -1,0 +1,27 @@
+﻿@model Talisman.Domain.Entities.Article
+
+@{
+    ViewBag.Title = "Добавление новой статьи";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>Добавление новой статьи.</h2>
+@Html.ValidationSummary()
+@using (@Html.BeginForm("CreateArticle", "Admin", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Name, "Введите название статьи")
+        @Html.TextBoxFor(a => a.Name, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Content, "Введите текст статьи")
+        @Html.TextAreaFor(a => a.Content, new { @class = "form-control", rows = 25 })
+
+        @Html.LabelFor(c => c.CEO, "СЕО текст для тега description на странице статьи")
+        @Html.TextBoxFor(c => c.CEO, new { @class = "form-control" })
+        
+    </div>
+    <button class="btn btn-success">Сохранить</button>
+    @Html.ActionLink("Отмена", "ArticlesAdmin", null, new { @class = "btn btn-default" })
+
+}

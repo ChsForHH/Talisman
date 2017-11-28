@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7BA45634-DBE6-4DD3-857F-FDE0A68A16EB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Talisman.WebUI</RootNamespace>
+    <AssemblyName>Talisman.WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Web.Optimization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Web.Optimization.0.0.8\lib\net40\Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\admin3.css" />
+    <Content Include="Content\Articles.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CallBack.min.css" />
+    <Content Include="Content\contactsnv2.css" />
+    <Content Include="Content\Feedback.min.css" />
+    <Content Include="Content\Images\1.gif" />
+    <Content Include="Content\Images\11.gif" />
+    <Content Include="Content\Images\2.gif" />
+    <Content Include="Content\Images\21.gif" />
+    <Content Include="Content\Images\31.gif" />
+    <Content Include="Content\Images\5.gif" />
+    <Content Include="Content\Images\6.gif" />
+    <Content Include="Content\Images\7.gif" />
+    <Content Include="Content\Images\8.gif" />
+    <Content Include="Content\Images\Acticles\a11.jpg" />
+    <Content Include="Content\Images\Acticles\a12.jpg" />
+    <Content Include="Content\Images\Acticles\a13.jpg" />
+    <Content Include="Content\Images\Acticles\a14.jpg" />
+    <Content Include="Content\Images\Acticles\a15.jpg" />
+    <Content Include="Content\Images\Acticles\a16.png" />
+    <Content Include="Content\Images\Acticles\a17.jpg" />
+    <Content Include="Content\Images\Acticles\a21.jpg" />
+    <Content Include="Content\Images\Acticles\a210.jpg" />
+    <Content Include="Content\Images\Acticles\a211.jpg" />
+    <Content Include="Content\Images\Acticles\a212.jpg" />
+    <Content Include="Content\Images\Acticles\a213.jpg" />
+    <Content Include="Content\Images\Acticles\a214.jpg" />
+    <Content Include="Content\Images\Acticles\a215.jpg" />
+    <Content Include="Content\Images\Acticles\a22.jpg" />
+    <Content Include="Content\Images\Acticles\a23.jpg" />
+    <Content Include="Content\Images\Acticles\a24.jpg" />
+    <Content Include="Content\Images\Acticles\a25.jpg" />
+    <Content Include="Content\Images\Acticles\a26.jpg" />
+    <Content Include="Content\Images\Acticles\a27.jpg" />
+    <Content Include="Content\Images\Acticles\a28.jpg" />
+    <Content Include="Content\Images\Acticles\a29.jpg" />
+    <Content Include="Content\Images\Acticles\a30.jpg" />
+    <Content Include="Content\Images\Acticles\a31.jpg" />
+    <Content Include="Content\Images\Acticles\a310.jpg" />
+    <Content Include="Content\Images\Acticles\a311.jpg" />
+    <Content Include="Content\Images\Acticles\a312.jpg" />
+    <Content Include="Content\Images\Acticles\a313.jpg" />
+    <Content Include="Content\Images\Acticles\a314.jpg" />
+    <Content Include="Content\Images\Acticles\a315.jpg" />
+    <Content Include="Content\Images\Acticles\a316.jpg" />
+    <Content Include="Content\Images\Acticles\a317.jpg" />
+    <Content Include="Content\Images\Acticles\a32.jpeg" />
+    <Content Include="Content\Images\Acticles\a33.jpg" />
+    <Content Include="Content\Images\Acticles\a34.jpg" />
+    <Content Include="Content\Images\Acticles\a35.jpg" />
+    <Content Include="Content\Images\Acticles\a36.jpg" />
+    <Content Include="Content\Images\Acticles\a37.jpg" />
+    <Content Include="Content\Images\Acticles\a38.jpg" />
+    <Content Include="Content\Images\Acticles\a39.jpg" />
+    <Content Include="Content\Images\Acticles\kitchen_mdf_21.jpg" />
+    <Content Include="Content\Images\Acticles\krf.jpg" />
+    <Content Include="Content\Images\Acticles\kr_f.jpg" />
+    <Content Include="Content\Images\fb_ico.png" />
+    <Content Include="Content\Images\glass - Copy.png" />
+    <Content Include="Content\Images\glass.png" />
+    <Content Include="Content\Images\gostinie.jpg" />
+    <Content Include="Content\Images\h1.jpg" />
+    <Content Include="Content\Images\head - Copy.png" />
+    <Content Include="Content\Images\head.png" />
+    <Content Include="Content\Images\head1.jpg" />
+    <Content Include="Content\Images\head2.jpg" />
+    <Content Include="Content\Images\header - Copy.png" />
+    <Content Include="Content\Images\header.png" />
+    <Content Include="Content\Images\inst_ico.png" />
+    <Content Include="Content\Images\kichen.jpg" />
+    <Content Include="Content\Images\kichens\k5-1.jpg" />
+    <Content Include="Content\Images\kichens\k5-2.jpg" />
+    <Content Include="Content\Images\kichens\k5-3.jpg" />
+    <Content Include="Content\Images\kichens\k5-4.jpg" />
+    <Content Include="Content\Images\kichens\k5-5.jpg" />
+    <Content Include="Content\Images\kupe.jpg" />
+    <Content Include="Content\Images\l1.png" />
+    <Content Include="Content\Images\l2.png" />
+    <Content Include="Content\Images\leftBut - Copy.png" />
+    <Content Include="Content\Images\leftBut.png" />
+    <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Content\Images\logo2.jpg" />
+    <Content Include="Content\Images\logo3.png" />
+    <Content Include="Content\Images\logo333.png" />
+    <Content Include="Content\Images\logo_opacity.png" />
+    <Content Include="Content\Images\logo_opacity2.png" />
+    <Content Include="Content\Images\logo_opacityN.png" />
+    <Content Include="Content\Images\lp.gif" />
+    <Content Include="Content\Images\menu.png" />
+    <Content Include="Content\Images\menuM - Copy.png" />
+    <Content Include="Content\Images\menuM.png" />
+    <Content Include="Content\Images\nav.jpg" />
+    <Content Include="Content\Images\pixel.png" />
+    <Content Include="Content\Images\prihozie.jpg" />
+    <Content Include="Content\Images\sale_equipment.jpg" />
+    <Content Include="Content\Images\talcard.jpg" />
+    <Content Include="Content\Images\vk_ico.png" />
+    <Content Include="Content\Images\прихожие.JPG" />
+    <Content Include="Content\Loginnv3.css" />
+    <Content Include="Content\pluginNew.min.css" />
+    <Content Include="Content\pluginnv.css" />
+    <Content Include="Content\Position.min.css" />
+    <Content Include="Content\Services.min.css" />
+    <Content Include="Content\SiteMain3.min.css" />
+    <Content Include="Content\TovarPhotos\102.jpeg" />
+    <Content Include="Content\TovarPhotos\103.jpeg" />
+    <Content Include="Content\TovarPhotos\104.jpeg" />
+    <Content Include="Content\TovarPhotos\105.jpeg" />
+    <Content Include="Content\TovarPhotos\106.jpeg" />
+    <Content Include="Content\TovarPhotos\107.jpeg" />
+    <Content Include="Content\TovarPhotos\108.jpeg" />
+    <Content Include="Content\TovarPhotos\109.jpeg" />
+    <Content Include="Content\TovarPhotos\110.jpeg" />
+    <Content Include="Content\TovarPhotos\114.jpeg" />
+    <Content Include="Content\TovarPhotos\115.jpeg" />
+    <Content Include="Content\TovarPhotos\116.jpeg" />
+    <Content Include="Content\TovarPhotos\117.jpeg" />
+    <Content Include="Content\TovarPhotos\118.jpeg" />
+    <Content Include="Content\TovarPhotos\119.jpeg" />
+    <Content Include="Content\TovarPhotos\120.jpeg" />
+    <Content Include="Content\TovarPhotos\121.jpeg" />
+    <Content Include="Content\TovarPhotos\122.jpeg" />
+    <Content Include="Content\TovarPhotos\123.jpeg" />
+    <Content Include="Content\TovarPhotos\124.jpeg" />
+    <Content Include="Content\TovarPhotos\125.jpeg" />
+    <Content Include="Content\TovarPhotos\126.jpeg" />
+    <Content Include="Content\TovarPhotos\127.jpeg" />
+    <Content Include="Content\TovarPhotos\128.jpeg" />
+    <Content Include="Content\TovarPhotos\129.jpeg" />
+    <Content Include="Content\TovarPhotos\130.jpeg" />
+    <Content Include="Content\TovarPhotos\131.jpeg" />
+    <Content Include="Content\TovarPhotos\132.jpeg" />
+    <Content Include="Content\TovarPhotos\133.jpeg" />
+    <Content Include="Content\TovarPhotos\134.jpeg" />
+    <Content Include="Content\TovarPhotos\135.jpeg" />
+    <Content Include="Content\TovarPhotos\136.jpeg" />
+    <Content Include="Content\TovarPhotos\137.jpeg" />
+    <Content Include="Content\TovarPhotos\138.jpeg" />
+    <Content Include="Content\TovarPhotos\139.jpeg" />
+    <Content Include="Content\TovarPhotos\140.jpeg" />
+    <Content Include="Content\TovarPhotos\141.jpeg" />
+    <Content Include="Content\TovarPhotos\142.jpeg" />
+    <Content Include="Content\TovarPhotos\143.jpeg" />
+    <Content Include="Content\TovarPhotos\144.jpeg" />
+    <Content Include="Content\TovarPhotos\145.jpeg" />
+    <Content Include="Content\TovarPhotos\146.jpeg" />
+    <Content Include="Content\TovarPhotos\147.jpeg" />
+    <Content Include="Content\TovarPhotos\148.jpeg" />
+    <Content Include="Content\TovarPhotos\149.jpeg" />
+    <Content Include="Content\TovarPhotos\150.jpeg" />
+    <Content Include="Content\TovarPhotos\151.jpeg" />
+    <Content Include="Content\TovarPhotos\152.jpeg" />
+    <Content Include="Content\TovarPhotos\153.jpeg" />
+    <Content Include="Content\TovarPhotos\154.jpeg" />
+    <Content Include="Content\TovarPhotos\155.jpeg" />
+    <Content Include="Content\TovarPhotos\156.jpeg" />
+    <Content Include="Content\TovarPhotos\157.jpeg" />
+    <Content Include="Content\TovarPhotos\158.jpeg" />
+    <Content Include="Content\TovarPhotos\159.jpeg" />
+    <Content Include="Content\TovarPhotos\160.jpeg" />
+    <Content Include="Content\TovarPhotos\161.jpeg" />
+    <Content Include="Content\TovarPhotos\162.jpeg" />
+    <Content Include="Content\TovarPhotos\163.jpeg" />
+    <Content Include="Content\TovarPhotos\164.jpeg" />
+    <Content Include="Content\TovarPhotos\165.jpeg" />
+    <Content Include="Content\TovarPhotos\166.jpeg" />
+    <Content Include="Content\TovarPhotos\167.jpeg" />
+    <Content Include="Content\TovarPhotos\168.jpeg" />
+    <Content Include="Content\TovarPhotos\169.jpeg" />
+    <Content Include="Content\TovarPhotos\170.jpeg" />
+    <Content Include="Content\TovarPhotos\171.jpeg" />
+    <Content Include="Content\TovarPhotos\172.jpeg" />
+    <Content Include="Content\TovarPhotos\173.jpeg" />
+    <Content Include="Content\TovarPhotos\174.jpeg" />
+    <Content Include="Content\TovarPhotos\175.jpeg" />
+    <Content Include="Content\TovarPhotos\176.jpeg" />
+    <Content Include="Content\TovarPhotos\177.jpeg" />
+    <Content Include="Content\TovarPhotos\178.jpeg" />
+    <Content Include="Content\TovarPhotos\179.jpeg" />
+    <Content Include="Content\TovarPhotos\180.jpeg" />
+    <Content Include="Content\TovarPhotos\181.jpeg" />
+    <Content Include="Content\TovarPhotos\182.jpeg" />
+    <Content Include="Content\TovarPhotos\183.jpeg" />
+    <Content Include="Content\TovarPhotos\184.jpeg" />
+    <Content Include="Content\TovarPhotos\185.jpeg" />
+    <Content Include="Content\TovarPhotos\186.jpeg" />
+    <Content Include="Content\TovarPhotos\187.jpeg" />
+    <Content Include="Content\TovarPhotos\188.jpeg" />
+    <Content Include="Content\TovarPhotos\189.jpeg" />
+    <Content Include="Content\TovarPhotos\190.jpeg" />
+    <Content Include="Content\TovarPhotos\191.jpeg" />
+    <Content Include="Content\TovarPhotos\192.jpeg" />
+    <Content Include="Content\TovarPhotos\193.jpeg" />
+    <Content Include="Content\TovarPhotos\194.jpeg" />
+    <Content Include="Content\TovarPhotos\195.jpeg" />
+    <Content Include="Content\TovarPhotos\196.jpeg" />
+    <Content Include="Content\TovarPhotos\198.jpeg" />
+    <Content Include="Content\TovarPhotos\199.jpeg" />
+    <Content Include="Content\TovarPhotos\200.jpeg" />
+    <Content Include="Content\TovarPhotos\201.jpeg" />
+    <Content Include="Content\TovarPhotos\202.jpeg" />
+    <Content Include="Content\TovarPhotos\203.jpeg" />
+    <Content Include="Content\TovarPhotos\204.jpeg" />
+    <Content Include="Content\TovarPhotos\205.jpeg" />
+    <Content Include="Content\TovarPhotos\207.jpeg" />
+    <Content Include="Content\TovarPhotos\208.jpeg" />
+    <Content Include="Content\TovarPhotos\209.jpeg" />
+    <Content Include="Content\TovarPhotos\210.jpeg" />
+    <Content Include="Content\TovarPhotos\211.jpeg" />
+    <Content Include="Content\TovarPhotos\212.jpeg" />
+    <Content Include="Content\TovarPhotos\213.jpeg" />
+    <Content Include="Content\TovarPhotos\214.jpeg" />
+    <Content Include="Content\TovarPhotos\215.jpeg" />
+    <Content Include="Content\TovarPhotos\216.jpeg" />
+    <Content Include="Content\TovarPhotos\217.jpeg" />
+    <Content Include="Content\TovarPhotos\218.jpeg" />
+    <Content Include="Content\TovarPhotos\219.jpeg" />
+    <Content Include="Content\TovarPhotos\220.jpeg" />
+    <Content Include="Content\TovarPhotos\221.jpeg" />
+    <Content Include="Content\TovarPhotos\222.jpeg" />
+    <Content Include="Content\TovarPhotos\223.jpeg" />
+    <Content Include="Content\TovarPhotos\224.jpeg" />
+    <Content Include="Content\TovarPhotos\225.jpeg" />
+    <Content Include="Content\TovarPhotos\226.jpeg" />
+    <Content Include="Content\TovarPhotos\227.jpeg" />
+    <Content Include="Content\TovarPhotos\228.jpeg" />
+    <Content Include="Content\TovarPhotos\229.jpeg" />
+    <Content Include="Content\TovarPhotos\230.jpeg" />
+    <Content Include="Content\TovarPhotos\231.jpeg" />
+    <Content Include="Content\TovarPhotos\232.jpeg" />
+    <Content Include="Content\TovarPhotos\233.jpeg" />
+    <Content Include="Content\TovarPhotos\234.jpeg" />
+    <Content Include="Content\TovarPhotos\235.jpeg" />
+    <Content Include="Content\TovarPhotos\236.jpeg" />
+    <Content Include="Content\TovarPhotos\237.jpeg" />
+    <Content Include="Content\TovarPhotos\238.jpeg" />
+    <Content Include="Content\TovarPhotos\239.jpeg" />
+    <Content Include="Content\TovarPhotos\240.jpeg" />
+    <Content Include="Content\TovarPhotos\241.jpeg" />
+    <Content Include="Content\TovarPhotos\242.jpeg" />
+    <Content Include="Content\TovarPhotos\243.jpeg" />
+    <Content Include="Content\TovarPhotos\244.jpeg" />
+    <Content Include="Content\TovarPhotos\245.jpeg" />
+    <Content Include="Content\TovarPhotos\246.jpeg" />
+    <Content Include="Content\TovarPhotos\247.jpeg" />
+    <Content Include="Content\TovarPhotos\248.jpeg" />
+    <Content Include="Content\TovarPhotos\249.jpeg" />
+    <Content Include="Content\TovarPhotos\250.jpeg" />
+    <Content Include="Content\TovarPhotos\251.jpeg" />
+    <Content Include="Content\TovarPhotos\252.jpeg" />
+    <Content Include="Content\TovarPhotos\253.jpeg" />
+    <Content Include="Content\TovarPhotos\254.jpeg" />
+    <Content Include="Content\TovarPhotos\255.jpeg" />
+    <Content Include="Content\TovarPhotos\256.jpeg" />
+    <Content Include="Content\TovarPhotos\257.jpeg" />
+    <Content Include="Content\TovarPhotos\258.jpeg" />
+    <Content Include="Content\TovarPhotos\259.jpeg" />
+    <Content Include="Content\TovarPhotos\260.jpeg" />
+    <Content Include="Content\TovarPhotos\261.jpeg" />
+    <Content Include="Content\TovarPhotos\262.jpeg" />
+    <Content Include="Content\TovarPhotos\263.jpeg" />
+    <Content Include="Content\TovarPhotos\264.jpeg" />
+    <Content Include="Content\TovarPhotos\265.jpeg" />
+    <Content Include="Content\TovarPhotos\267.jpeg" />
+    <Content Include="Content\TovarPhotos\268.jpeg" />
+    <Content Include="Content\TovarPhotos\269.jpeg" />
+    <Content Include="Content\TovarPhotos\270.jpeg" />
+    <Content Include="Content\TovarPhotos\271.jpeg" />
+    <Content Include="Content\TovarPhotos\272.jpeg" />
+    <Content Include="Content\TovarPhotos\273.jpeg" />
+    <Content Include="Content\TovarPhotos\275.jpeg" />
+    <Content Include="Content\TovarPhotos\276.jpeg" />
+    <Content Include="Content\TovarPhotos\277.jpeg" />
+    <Content Include="Content\TovarPhotos\278.jpeg" />
+    <Content Include="Content\TovarPhotos\279.jpeg" />
+    <Content Include="Content\TovarPhotos\280.jpeg" />
+    <Content Include="Content\TovarPhotos\281.jpeg" />
+    <Content Include="Content\TovarPhotos\282.jpeg" />
+    <Content Include="Content\TovarPhotos\283.jpeg" />
+    <Content Include="Content\TovarPhotos\284.jpeg" />
+    <Content Include="Content\TovarPhotos\285.jpeg" />
+    <Content Include="Content\TovarPhotos\286.jpeg" />
+    <Content Include="Content\TovarPhotos\287.jpeg" />
+    <Content Include="Content\TovarPhotos\288.jpeg" />
+    <Content Include="Content\TovarPhotos\291.jpeg" />
+    <Content Include="Content\TovarPhotos\292.jpeg" />
+    <Content Include="Content\TovarPhotos\293.jpeg" />
+    <Content Include="Content\TovarPhotos\294.jpeg" />
+    <Content Include="Content\TovarPhotos\295.jpeg" />
+    <Content Include="Content\TovarPhotos\296.jpeg" />
+    <Content Include="Content\TovarPhotos\297.jpeg" />
+    <Content Include="Content\TovarPhotos\298.jpeg" />
+    <Content Include="Content\TovarPhotos\299.jpeg" />
+    <Content Include="Content\TovarPhotos\300.jpeg" />
+    <Content Include="Content\TovarPhotos\301.jpeg" />
+    <Content Include="Content\TovarPhotos\302.jpeg" />
+    <Content Include="Content\TovarPhotos\303.jpeg" />
+    <Content Include="Content\TovarPhotos\304.jpeg" />
+    <Content Include="Content\TovarPhotos\305.jpeg" />
+    <Content Include="Content\TovarPhotos\306.jpeg" />
+    <Content Include="Content\TovarPhotos\307.jpeg" />
+    <Content Include="Content\TovarPhotos\308.jpeg" />
+    <Content Include="Content\TovarPhotos\309.jpeg" />
+    <Content Include="Content\TovarPhotos\310.jpeg" />
+    <Content Include="Content\TovarPhotos\311.jpeg" />
+    <Content Include="Content\TovarPhotos\312.jpeg" />
+    <Content Include="Content\TovarPhotos\313.jpeg" />
+    <Content Include="Content\TovarPhotos\314.jpeg" />
+    <Content Include="Content\TovarPhotos\315.jpeg" />
+    <Content Include="Content\TovarPhotos\316.jpeg" />
+    <Content Include="Content\TovarPhotos\317.jpeg" />
+    <Content Include="Content\TovarPhotos\318.jpeg" />
+    <Content Include="Content\TovarPhotos\319.jpeg" />
+    <Content Include="Content\TovarPhotos\320.jpeg" />
+    <Content Include="Content\TovarPhotos\321.jpeg" />
+    <Content Include="Content\TovarPhotos\322.jpeg" />
+    <Content Include="Content\TovarPhotos\323.jpeg" />
+    <Content Include="Content\TovarPhotos\324.jpeg" />
+    <Content Include="Content\TovarPhotos\325.jpeg" />
+    <Content Include="Content\TovarPhotos\326.jpeg" />
+    <Content Include="Content\TovarPhotos\327.jpeg" />
+    <Content Include="Content\TovarPhotos\328.jpeg" />
+    <Content Include="Content\TovarPhotos\329.jpeg" />
+    <Content Include="Content\TovarPhotos\330.jpeg" />
+    <Content Include="Content\TovarPhotos\331.jpeg" />
+    <Content Include="Content\TovarPhotos\332.jpeg" />
+    <Content Include="Content\TovarPhotos\333.jpeg" />
+    <Content Include="Content\TovarPhotos\334.jpeg" />
+    <Content Include="Content\TovarPhotos\335.jpeg" />
+    <Content Include="Content\TovarPhotos\336.jpeg" />
+    <Content Include="Content\TovarPhotos\337.jpeg" />
+    <Content Include="Content\TovarPhotos\338.jpeg" />
+    <Content Include="Content\TovarPhotos\339.jpeg" />
+    <Content Include="Content\TovarPhotos\340.jpeg" />
+    <Content Include="Content\TovarPhotos\346.jpeg" />
+    <Content Include="Content\TovarPhotos\348.jpeg" />
+    <Content Include="Content\TovarPhotos\349.jpeg" />
+    <Content Include="Content\TovarPhotos\350.jpeg" />
+    <Content Include="Content\TovarPhotos\351.jpeg" />
+    <Content Include="Content\TovarPhotos\51.jpeg" />
+    <Content Include="Content\TovarPhotos\52.jpeg" />
+    <Content Include="Content\TovarPhotos\53.jpeg" />
+    <Content Include="Content\TovarPhotos\54.jpeg" />
+    <Content Include="Content\TovarPhotos\55.jpeg" />
+    <Content Include="Content\TovarPhotos\56.jpeg" />
+    <Content Include="Content\TovarPhotos\57.jpeg" />
+    <Content Include="Content\TovarPhotos\58.jpeg" />
+    <Content Include="Content\TovarPhotos\59.jpeg" />
+    <Content Include="Content\TovarPhotos\60.jpeg" />
+    <Content Include="Content\TovarPhotos\61.jpeg" />
+    <Content Include="Content\TovarPhotos\62.jpeg" />
+    <Content Include="Content\TovarPhotos\63.jpeg" />
+    <Content Include="Content\TovarPhotos\64.jpeg" />
+    <Content Include="Content\TovarPhotos\65.jpeg" />
+    <Content Include="Content\TovarPhotos\66.jpeg" />
+    <Content Include="Content\TovarPhotos\67.jpeg" />
+    <Content Include="Content\TovarPhotos\68.jpeg" />
+    <Content Include="Content\TovarPhotos\69.jpeg" />
+    <Content Include="Content\TovarPhotos\70.jpeg" />
+    <Content Include="Content\TovarPhotos\71.jpeg" />
+    <Content Include="Content\TovarPhotos\72.jpeg" />
+    <Content Include="Content\TovarPhotos\73.jpeg" />
+    <Content Include="Content\TovarPhotos\74.jpeg" />
+    <Content Include="Content\TovarPhotos\75.jpeg" />
+    <Content Include="Content\TovarPhotos\76.jpeg" />
+    <Content Include="Content\TovarPhotos\77.jpeg" />
+    <Content Include="Content\TovarPhotos\78.jpeg" />
+    <Content Include="Content\TovarPhotos\79.jpeg" />
+    <Content Include="Content\TovarPhotos\80.jpeg" />
+    <Content Include="Content\TovarPhotos\81.jpeg" />
+    <Content Include="Content\TovarPhotos\82.jpeg" />
+    <Content Include="Content\TovarPhotos\83.jpeg" />
+    <Content Include="Content\TovarPhotos\84.jpeg" />
+    <Content Include="Content\TovarPhotos\85.jpeg" />
+    <Content Include="Content\TovarPhotos\86.jpeg" />
+    <Content Include="Content\TovarPhotos\87.jpeg" />
+    <Content Include="Content\TovarPhotos\88.jpeg" />
+    <Content Include="Content\TovarPhotos\89.jpeg" />
+    <Content Include="Content\TovarPhotos\90.jpeg" />
+    <Content Include="Content\TovarPhotos\91.jpeg" />
+    <Content Include="Content\TovarPhotos\92.jpeg" />
+    <Content Include="Content\TovarPhotos\93.jpeg" />
+    <Content Include="Content\TovarPhotos\94.jpeg" />
+    <Content Include="Content\TovarPhotos\95.jpeg" />
+    <Content Include="Content\TovarPhotos\96.jpeg" />
+    <Content Include="fonts\Bradobrey\bradobrei.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\Philosopher\OFL.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\Philosopher\Philosopher-Bold.ttf" />
+    <Content Include="fonts\Philosopher\Philosopher-BoldItalic.ttf" />
+    <Content Include="fonts\Philosopher\Philosopher-Italic.ttf" />
+    <Content Include="fonts\Philosopher\Philosopher-Regular.ttf" />
+    <Content Include="fonts\Bradobrey\bradobrei.ttf" />
+    <Content Include="fonts\Bradobrey\bradobrei.woff" />
+    <Content Include="fonts\Bradobrey\bradobrei.woff2" />
+    <Content Include="App_Code\NewsHelper.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <None Include="Properties\PublishProfiles\tali.pubxml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="robots.txt" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\MainScript2.min.js" />
+    <Content Include="Scripts\posPlugin.min.js" />
+    <Content Include="Scripts\PVn1.js" />
+    <Content Include="Scripts\servicenv.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery.scrollTo.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\slider2.min.js" />
+    <Content Include="Views\Home\Contacts.cshtml">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_AdminLayot.cshtml" />
+    <Content Include="Views\Admin\ListCategories.cshtml" />
+    <Content Include="Views\Admin\EditCategory.cshtml" />
+    <Content Include="Views\Admin\CreateCategory.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DataReader.cs" />
+    <Compile Include="App_Start\NinjectWebCommon.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ArticlesController.cs" />
+    <Compile Include="Controllers\CachController.cs" />
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\FeedBackController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LayoutController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Controllers\SiteMapController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlHelpers\PhotosHelper.cs" />
+    <Compile Include="Infrastructure\Abstract\IAuthProvider.cs" />
+    <Compile Include="Infrastructure\Cach.cs" />
+    <Compile Include="Infrastructure\ChangeCachEventArgs.cs" />
+    <Compile Include="Infrastructure\Concreet\FormsAuthProvider.cs" />
+    <Compile Include="Infrastructure\NinjectDependencyResolver.cs" />
+    <Compile Include="Models\ArticleMenuViewModel.cs" />
+    <Compile Include="Models\CategoryViewModel.cs" />
+    <Compile Include="Models\CallBackViewModel.cs" />
+    <Compile Include="Models\EditCategory.cs" />
+    <Compile Include="Models\EditTovarViewModel.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\SiteMapViewModel.cs" />
+    <Compile Include="Models\SliderViewModel.cs" />
+    <Compile Include="Models\TovarsAndPhotoViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Admin\Tovars.cshtml" />
+    <Content Include="Views\Admin\CreateTovar.cshtml" />
+    <Content Include="Views\Admin\AddPhoto.cshtml" />
+    <Content Include="Views\Admin\Photos.cshtml" />
+    <Content Include="Views\Admin\PhotosMini.cshtml" />
+    <Content Include="Views\Category\Category.cshtml" />
+    <Content Include="Views\Category\TovarPhotos.cshtml" />
+    <Content Include="Views\Home\LeftNav.cshtml" />
+    <Content Include="Views\Home\CallBack.cshtml" />
+    <Content Include="Views\Home\CallBackOk.cshtml" />
+    <Content Include="Views\Home\CallBack2.cshtml" />
+    <Content Include="Views\Home\NewTovars.cshtml" />
+    <Content Include="Views\Articles\Article.cshtml" />
+    <Content Include="Views\Admin\ArticlesAdmin.cshtml" />
+    <Content Include="Views\Admin\CreateArticle.cshtml" />
+    <Content Include="Views\Admin\EditArticle.cshtml" />
+    <Content Include="Views\Articles\ArticleMenu.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\ArticleMenu2.cshtml" />
+    <Content Include="Views\Services\List.cshtml" />
+    <Content Include="Views\Admin\DepPhotoView.cshtml" />
+    <Content Include="Views\FeedBack\List.cshtml" />
+    <Content Include="Views\FeedBack\AddFeedBack.cshtml" />
+    <Content Include="Views\FeedBack\FBres.cshtml" />
+    <Content Include="Views\Admin\FeedBack.cshtml" />
+    <Content Include="Views\Admin\AdminErr.cshtml" />
+    <Content Include="Views\Admin\EditFeedBack.cshtml" />
+    <Content Include="Views\Admin\Services.cshtml" />
+    <Content Include="Views\Admin\CreateService.cshtml" />
+    <Content Include="Views\Admin\EditService.cshtml" />
+    <Content Include="Views\Admin\News.cshtml" />
+    <Content Include="Views\Admin\CreateNew.cshtml" />
+    <Content Include="Views\Admin\EditNew.cshtml" />
+    <Content Include="Views\Admin\Over.cshtml" />
+    <Content Include="Views\Category\Position.cshtml" />
+    <Content Include="Views\Admin\CreateCach.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Admin\CreateSM.cshtml" />
+    <Content Include="Views\SiteMap\Map.cshtml" />
+    <Content Include="Views\Account\Change.cshtml" />
+    <Content Include="Views\Admin\UpLoadImg.cshtml" />
+    <Content Include="Views\Admin\TestView.cshtml" />
+    <Content Include="Views\Error\Forbidden.cshtml" />
+    <Content Include="Views\Error\InternalServerError.cshtml" />
+    <Content Include="Views\Admin\AddCategoryPhoto.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
+    <Content Include="Views\Error\Error.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Cach\Category\" />
+    <Folder Include="Cach\Home\" />
+    <Folder Include="Content\CategoryPhotos\" />
+    <Folder Include="ErrorsLog\" />
+    <Folder Include="Views\Layout\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Talisman.Domain\Talisman.Domain.csproj">
+      <Project>{6073a25f-5aa1-4905-81ac-a9874f8d98c3}</Project>
+      <Name>Talisman.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53624</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50885/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

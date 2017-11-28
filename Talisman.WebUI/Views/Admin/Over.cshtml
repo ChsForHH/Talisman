@@ -1,0 +1,77 @@
+﻿@model Talisman.Domain.Entities.Over
+
+@{
+    ViewBag.Title = "Разное";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>Разное</h2>
+@if (TempData["messageNotDel"] != null)
+{
+    <div class="alert alert-danger">@TempData["messageNotOk"]</div>
+}
+
+@if (TempData["messageCreateOk"] != null)
+{
+    <div class="alert alert-success">@TempData["messageCreateOk"]</div>
+}
+@Html.ValidationSummary()
+@using (@Html.BeginForm("Over", "Admin", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.HiddenFor(h=>h.Id)
+        @Html.LabelFor(a => a.CompanyName, "Название компании")
+        @Html.TextBoxFor(a => a.CompanyName, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Bussines, "Описание деятельности в заголовке")
+        @Html.TextBoxFor(a => a.Bussines, new { @class = "form-control"})
+
+        @Html.LabelFor(a => a.Address, "Адрес компании")
+        @Html.TextBoxFor(a => a.Address, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Address2, "Адрес компании в шапку (html-код)")
+        @Html.TextBoxFor(a => a.Address2, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Phone, "Телефон")
+        @Html.TextBoxFor(a => a.Phone, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Email, "Электронный адресс")
+        @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Regim, "Режим работы")
+        @Html.TextBoxFor(a => a.Regim, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.ArticleMain, "Статья о компании")
+        @Html.TextAreaFor(a => a.ArticleMain, new { @class = "form-control", rows = 20 })
+
+        @Html.LabelFor(a => a.Article2, "Статья описания процесса заказа")
+        @Html.TextAreaFor(a => a.Article2, new { @class = "form-control", rows=10 })
+
+        @Html.LabelFor(a => a.ArticleFoot, "Статья в футере")
+        @Html.TextAreaFor(a => a.ArticleFoot, new { @class = "form-control", rows=10 })
+
+        @Html.LabelFor(a => a.Link1, "Ссылка Вконтакте")
+        @Html.TextBoxFor(a => a.Link1, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Link2, "Ссылка FaceBook")
+        @Html.TextBoxFor(a => a.Link2, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Link3, "Ссылка Instagrame")
+        @Html.TextBoxFor(a => a.Link3, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.CEO, "CEO текст для тега descriprion главной станицы")
+        @Html.TextAreaFor(a => a.CEO, new { @class = "form-control", rows=3 })
+
+        @Html.LabelFor(c => c.Title, "Текст для заголовка title")
+        @Html.TextAreaFor(c => c.Title, new { @class = "form-control", rows = 2 })
+
+        @Html.LabelFor(c => c.KeyWords, "Текст для атрибута keywords тега meta")
+        @Html.TextBoxFor(c => c.KeyWords, new { @class = "form-control" })
+
+    </div>
+    <button class="btn btn-success">Сохранить</button>
+    @Html.ActionLink("Отмена", "ListCategories", null, new { @class = "btn btn-default" })
+
+}
+

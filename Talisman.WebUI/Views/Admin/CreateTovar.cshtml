@@ -1,0 +1,66 @@
+﻿@model Talisman.Domain.Entities.Tovar
+
+@{
+    ViewBag.Title = "CreateTovar";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+<div class="adminExit">
+    @Html.ActionLink("Вернуться к редактированию категории", "EditCategory", new { categoryId = Model.CategoryId }, new { @class = "btn btn-default" })
+</div>
+
+<h3>Редактирование позици ассортимента @Model.Name</h3>
+@TempData["messageOk"]
+@TempData["messageNotOk"]
+@Html.ValidationSummary()
+@using (@Html.BeginForm("CreateTovar", "Admin", FormMethod.Post))
+{
+    @Html.HiddenFor(t => t.CategoryId)
+    @Html.HiddenFor(t=>t.TovarId)
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Name, "Название")
+        @Html.TextBoxFor(c => c.Name, new { @class = "form-control" })
+
+        @Html.LabelFor(c => c.Describing, "Описание")
+        @Html.TextAreaFor(c => c.Describing, new { @class = "form-control mw100", rows = 20 })
+
+        @Html.LabelFor(t=>t.Price,"Цена")
+        @Html.TextBoxFor(t => t.Price, new { @class = "form-control" })
+
+        @Html.LabelFor(t=>t.Visible,"Отображение на сайте")
+        @Html.CheckBoxFor(c => c.Visible, new { @class = "form-control" })
+
+        @Html.LabelFor(l => l.IsNew, "Показывать в рубрике \"Новинки\"")
+        @Html.CheckBoxFor(n => n.IsNew, new { @class = "form-control" })
+
+        @Html.LabelFor(c => c.CEO, "СЕО текст для тега description на странице позиции")
+        @Html.TextAreaFor(c => c.CEO, new { @class = "form-control", rows = 3 })
+
+        @Html.LabelFor(c => c.Title, "Текст для заголовка title")
+        @Html.TextAreaFor(c => c.Title, new { @class = "form-control", rows = 2 })
+
+        @Html.LabelFor(c => c.KeyWords, "Текст для атрибута keywords тега meta")
+        @Html.TextBoxFor(c => c.KeyWords, new { @class = "form-control" })
+    </div>
+    <button class="btn btn-success">Сохранить</button>    
+}
+
+
+<h4>Фотографии</h4>
+@{Html.RenderAction("Photos", new { tovarId = Model.TovarId });}
+<div id="loadPhoto">
+    @Ajax.ActionLink("Добавить фото", "AddPhoto", new { tovarId = Model.TovarId },
+                    new AjaxOptions { UpdateTargetId = "loadPhoto", HttpMethod = "Get", InsertionMode = InsertionMode.Replace },
+                    new { @class = "btn btn-success" })
+</div>
+
+
+<div class="adminExit">
+    @Html.ActionLink("Вернуться к редактированию категории", "EditCategory", new { categoryId = Model.CategoryId }, new { @class = "btn btn-default" })
+    @Html.ActionLink("Добавить новую позицию", "CreateTovar", new { categoryId = Model.CategoryId },
+new { @class = "btn btn-success" })
+</div>
+
+
+
+

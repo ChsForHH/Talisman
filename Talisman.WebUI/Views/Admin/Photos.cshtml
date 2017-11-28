@@ -1,0 +1,36 @@
+﻿@model IEnumerable<int>
+
+<div id="adminPhotos">
+    @if (Model.Count() == 0)
+    {
+        <span id="noListPhotos">Нет фотографий</span>
+    }
+    else
+    {
+        <table id="adminTablePhotos">
+            <tr>
+                @for (int n = 1; n <= Model.Count(); n++)
+                {
+                    <th class="adminTablePhotoTd">@n</th>
+                }
+            </tr>
+            <tr>
+                @foreach (var i in Model)
+                {
+                    <td class="adminTablePhotoTd">
+                        <div>
+                            <img src="@Html.PSrc(i,3).ToString()" height="150" />
+                        </div>
+                        <div class="adminTablePhotoBut">
+                            @using (Html.BeginForm("DeletePhoto", "Admin", FormMethod.Post))
+                            {
+                                <input type="hidden" name="photoId" value="@i" />
+                                <button class="btn btn-danger btn-xs">Удалить</button>
+                            }
+                        </div>
+                    </td>
+                }
+            </tr>
+        </table>
+    }
+</div>

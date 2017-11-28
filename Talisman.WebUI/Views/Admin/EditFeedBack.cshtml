@@ -1,0 +1,37 @@
+﻿@model Talisman.Domain.Entities.FeedBack
+
+@{
+    ViewBag.Title = "EditFeedBack";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<div id="mainFeed">
+    <h3 class="chaptername">Редактирование отзыва</h3>
+    <div id="feedForm">
+        @Html.ValidationSummary()
+        @using (@Html.BeginForm(FormMethod.Post))
+        {
+
+
+            <div class="form-group">
+                @Html.LabelFor(f => f.Name, "Имя:")
+                @Html.TextBoxFor(f => f.Name, new { @class = "form-control" })
+                @Html.LabelFor(f=>f.Date,"Дата:")
+                @Html.TextBoxFor(f => f.Date, new { @class = "form-control" })
+                
+                @Html.LabelFor(l => l.Email, "Email:")
+                @Html.TextBoxFor(f => f.Email, new { @class = "form-control" })
+                @Html.LabelFor(l => l.Contacts, "Другая контактная информация (не обязательно):")
+                @Html.TextBoxFor(f => f.Contacts, new { @class = "form-control" })
+                @Html.LabelFor(f => f.Message, "Тескт отзыва:")
+                @Html.TextAreaFor(f => f.Message, 7, 50, new { @class = "form-control" })
+                @Html.LabelFor(f=>f.Visible,"Отображение на сайте:")
+                @Html.CheckBoxFor(f => f.Visible, new { @class = "form-control" })
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+            @Html.ActionLink("Отмена", "FeedBack",null, new { @class="btn btn-default"})
+        }
+    </div>
+</div>
+
+

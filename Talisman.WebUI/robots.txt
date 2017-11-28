@@ -1,0 +1,37 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /category/
+Disallow: /home/
+Disallow: /contacts/
+Disallow: /account/
+Disallow: /homeviewer/
+Disallow: /viewer/
+Disallow: /feedbacks/
+Disallow: /article/
+
+User-agent: GoogleBot
+Disallow: /admin/
+Disallow: /category/
+Disallow: /home/
+Disallow: /contacts/
+Disallow: /account/
+Disallow: /homeviewer/
+Disallow: /viewer/
+Disallow: /feedbacks/
+Disallow: /article/
+
+
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /category/
+Disallow: /home/
+Disallow: /contacts/
+Disallow: /account/
+Disallow: /homeviewer/
+Disallow: /viewer/
+Disallow: /feedbacks/
+Disallow: /article/
+
+Sitemap: https://talis-mebel.ru/sitemap.xml
+Host: https://talis-mebel.ru

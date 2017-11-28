@@ -1,0 +1,31 @@
+﻿div#wrFeedBack{
+
+}
+
+div.fbBody{
+    margin:2% 1%;
+    padding:1%;
+    
+}
+
+span.sender{
+    font-weight:bolder;
+    font-size:larger;
+}
+div.feedMess{
+    margin:2%;
+    font-style:italic;
+}
+div.feedInfo{
+    text-align:center;
+}
+div.fbOk{
+    margin:2%;
+    padding:2%;
+    background-color:#b9fabb;
+}
+div.fbErr{
+    margin:2%;
+    padding:2%;
+    background-color:#fcc5ce;
+}

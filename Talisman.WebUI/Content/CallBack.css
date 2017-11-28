@@ -1,0 +1,112 @@
+﻿
+
+div#backCall{
+    align-self:flex-start;
+    display:flex;
+    margin-top: 2.5px;
+    /*margin-bottom: auto;*/
+    margin-left: auto;
+    margin-right: 2vw;
+    font-size: calc(7px + 0.7vw);
+    flex-direction: column;
+    width:calc(101px + 8vw);
+    /*right: 2vw;*/
+    z-index: 1000;
+    /*border: solid 1px #5e6370;*/
+    background-color: #70778a;
+    border-radius: 3px;
+    text-shadow: none;
+    font-family: Philosopher;
+    padding:0 5px;
+    box-shadow:0 0 3px #fff;
+}
+
+div#backCall2{
+    display:flex;
+}
+#CallBackLink{     
+    display:flex;
+    align-items:center;
+    justify-content:center;
+     height:calc(14px + 1.2vw);
+     margin:0;
+    color:#ebebea;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+    cursor:pointer;
+}
+div#cbBC   {
+    text-align:right;
+    margin-right:0.5vw;
+    font-size:25px;
+    color:white;
+}
+span.cbB{
+    cursor:pointer;
+    text-shadow:1px 1px 2px black;
+}
+/*div#callBackForm {
+    border: solid 1px #d6d6d4;
+    background-color: #70778a;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #000;
+    padding: 3px 5px;
+    text-shadow: none;
+    text-align: center;
+}*/
+/*div#backCall:hover{
+    box-shadow:0 0 3px #d6dbe9;
+}*/
+div#outwr{
+    display:none;
+    
+}
+div#wrCallBack{
+    margin:0;    
+    text-shadow:none;
+    text-align:center;
+       
+}
+div#CallBack{
+    /*display:flex;
+    flex-direction:column;
+    justify-content:center;*/
+    width:100%;
+    margin:0 0px 3px 0px;
+
+    text-shadow:none;
+   
+}
+#CallBack input{
+    display:inline-block;
+    width:100%;
+    background-color:#fafae7;
+    font-size: calc(7px + 0.7vw);
+    border:solid 1px grey;
+   
+    /*padding:0;*/
+    /*margin:0px 0px;*/
+}
+#CallBack input:focus{
+     box-shadow:0 0 3px white;
+}
+#CallBack button{
+    border:1px solid #70778a;
+}
+#CallBack ul {
+    text-align: left;
+    margin:0 1vw;
+    padding: 0 1vw;
+}
+#CallBack ul li{
+   
+    padding:0 0 0px 0;
+   
+}
+/*----------------------------ошибки---------------------*/
+#CallBack input[type=password],#CallBack input[type=text]{    
+    border: 1px solid #33313f;
+}
+#CallBack input.input-validation-error,textarea.input-validation-error {
+    border: 1px solid #870a0a;
+    background-color: #fee;
+}

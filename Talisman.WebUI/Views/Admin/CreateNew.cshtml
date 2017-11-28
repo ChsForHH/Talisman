@@ -1,0 +1,27 @@
+﻿@model Talisman.Domain.Entities.New
+
+@{
+    ViewBag.Title = "Создание новости";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>Создание новости</h2>
+@Html.ValidationSummary()
+@using (@Html.BeginForm("CreateNew", "Admin", FormMethod.Post))
+{
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Date, "Введите дату новости")
+        @Html.TextBoxFor(a => a.Date, new { @class = "form-control" })
+
+        @Html.LabelFor(a => a.Content, "Введите текст новости")
+        @Html.TextAreaFor(a => a.Content, new { @class = "form-control", rows = 15 })
+
+        @Html.LabelFor(a => a.Url, "Введите url новости")
+        @Html.TextBoxFor(a => a.Url, new { @class = "form-control" })
+
+    </div>
+    <button class="btn btn-success">Сохранить</button>
+    @Html.ActionLink("Отмена", "News", null, new { @class = "btn btn-default" })
+
+}

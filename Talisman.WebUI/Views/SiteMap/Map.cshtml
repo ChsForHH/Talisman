@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Talisman.WebUI.Models.SiteMapViewModel>
+@{   
+    Layout = "~/Views/Shared/_LXML.cshtml";
+}
+@foreach (var m in Model)
+{
+    var url = "https://talis-mebel.ru" + m.Url;
+    var lm =  m.Lastmod.Year.ToString() + "-" +
+        (m.Lastmod.Month.ToString().Length == 1 ? "0" + m.Lastmod.Month.ToString() : m.Lastmod.Month.ToString()) + "-" +
+        (m.Lastmod.Day.ToString().Length == 1 ? "0" + m.Lastmod.Day.ToString() : m.Lastmod.Day.ToString());
+    <url>
+        <loc>@url</loc>
+        <lastmod>@lm</lastmod>
+        <priority>@m.Priority.ToString().Replace(",", ".")</priority>
+        <changefreq>@m.Changefreq</changefreq>
+    </url>
+}
+

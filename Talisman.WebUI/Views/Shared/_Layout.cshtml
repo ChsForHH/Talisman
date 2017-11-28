@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@ViewBag.Description" />
+    <meta name="yandex-verification" content="cea5a8111ef7aa23" />      
+    <meta name="geo.placename" content="город Москва, Россия" />    
+    <meta name="geo.region" content="RU-город Москва" />
+    @if (ViewBag.MainUrl != null){
+    <link rel="canonical" href="@ViewBag.MainUrl" />} 
+    @if (ViewBag.KeyWords != null && ViewBag.KeyWords!=""){
+    <meta name="keywords" content="@ViewBag.KeyWords" />}        
+    <link href="~/Content/SiteMain3.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />        
+    @if (ViewBag.StyleF != null){
+    <link href="@ViewBag.StyleF" rel="stylesheet" type="text/css" />}  
+    @if (ViewBag.StyleF2 != null){
+    <link href="@ViewBag.StyleF2" rel="stylesheet" type="text/css" />}     
+    <link rel="shortcut icon" href="~/Content/Images/logo333.png" type="image/png" />     
+    <title>@ViewBag.Title</title>  
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery.scrollTo.min.js"></script>
+    <script src="~/Scripts/MainScript2.min.js"></script>       
+</head>
+<body>    
+    <header id="header">
+        <div id="contactsHead">
+            <div class="contBlock">
+                @Html.Address2()
+            </div>
+        </div>
+        <a href="@Url.Action("Index", "Home")" id="headLink">
+            <div id="wrImgLogo">
+                <img id="logo" src="~/Content/Images/l2.png" alt="логотип" />
+            </div>
+            <div id="wrTextLogo">
+                <div id="mainTitle">
+                    @Html.CompanyName()
+                </div>
+                <p id="logoword">
+                    @Html.Bussines()
+                </p>
+            </div>
+        </a>
+        <div class="endfloat"></div>
+    </header>
+    <nav id="wrnav" class="menuFS">
+        <div id="navbar">
+            <div id="buttonUp" class="bUp FsSmall lnH">
+                Наверх ^
+            </div>
+            <div id="menuCatalog" class="anav2 lnH">
+                <span class="spAnav1 menuFs">Каталог</span>
+                <div id="catalog">
+                    @{Html.RenderAction("LeftNav", "Home");}
+                </div>
+            </div>
+            <a href="@Url.Action("Index","Home")" class="anav1 lnH">
+                <span class="spAnav1 menuFs"><span class="glyphicon glyphicon-home"></span></span>
+            </a>
+            <a href="@Url.Action("List","Services")" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Услуги</span>
+            </a>
+            <a href="@Url.Action("Article", "Articles")" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Статьи</span>
+            </a>
+            <a href="@Url.Action("Contacts", "Home")" class="anav1 lnH">
+                <span class="spAnav1 menuFs">Контакты</span>
+            </a>
+            <a class="anav1 lnH" href="@Url.Action("List", "FeedBack")">
+                <span class="spAnav1 menuFs">Отзывы</span>
+            </a>
+            <span class="unVis FsSmall">Заказать обратный звонок</span>
+            <div id="backCall">
+                <span id="CallBackLink" class="FsSmall lnH" onclick="CBShow()">Заказать обратный звонок</span>
+                <div id="outwr">                    
+                </div>
+            </div>
+        </div>
+        <div id="navbar2" class="menuFs">
+            <span id="picList" class="lnH" onclick="ShowLeft()" title="Показать боковое меню">+</span>
+            <a href="@Url.Action("Index","Home")" class="anav2 mlauto">
+                <span class="spAnav1"><span class="glyphicon glyphicon-home"></span></span>
+            </a>
+            <a href="@Url.Action("List","Services")" class="anav2 lnH">
+                <span class="spAnav1">Услуги</span>
+            </a>
+            <a href="@Url.Action("Article", "Articles")" class="anav2 lnH">
+                <span class="spAnav1">Статьи</span>
+            </a>
+            <a href="@Url.Action("Contacts", "Home")" class="anav2 lnH">
+                <span class="spAnav1">Контакты</span>
+            </a>
+            <a class="anav2 lnH" href="@Url.Action("List", "FeedBack")">
+                <span class="spAnav1">Отзывы</span>
+            </a>
+        </div>
+        <div class="endfloat"></div>
+    </nav>
+    <div id="wrMain">
+        <aside id="wr">
+            <div id="leftNavbar" class="shadowIns menuFS">
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Каталог</div>
+                    @{Html.RenderAction("LeftNav", "Home");}
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Мы в соцсетях</div>
+                    <div class="socialNetsImages">
+                        <a class="socialNetsLink" href="@Html.FBLink()" target="_blank">
+                            <img class="socIco" src="~/Content/Images/fb_ico.png" alt="faceBook" title="Facebook" />
+                        </a>
+                        <a class="socialNetsLink" href="@Html.VKLink()" target="_blank">
+                            <img class="socIco" src="~/Content/Images/vk_ico.png" alt="ВКонтакте" title="ВКонтакте" />
+                        </a>
+                        <a class="socialNetsLink" href="@Html.InstLink()" target="_blank">
+                            <img class="socIco" src="~/Content/Images/inst_ico.png" alt="Instagram" title="Instagram" />
+                        </a>
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Мы на карте Москвы</div>
+                    <div id="cardWrImg">
+                        <a href="/Контакты#1000" class="mapLink">
+                            <img id="imgCard" src="~/Content/Images/talcard.jpg" alt="яндекс-карта" title="яндекс-карта" />
+                        </a>
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Новости</div>
+                    <div class="wrLeftBlock">
+                        @NewsHelper.NewsH()
+                    </div>
+                </nav>
+                <nav class="leftBlock">
+                    <div class="titlesLeft">Статьи</div>
+                    <div class="wrLeftBlock">
+                        @{Html.RenderAction("ArticleMenu2", "Home");}
+                    </div>
+                </nav>
+            </div>
+        </aside>
+        <main id="main" class="mainFont">
+            @RenderBody()
+        </main>
+        <div class="endfloat"></div>
+    </div>
+    <footer>
+        <nav class="footChapter">
+            <a href="@Url.Action("Index","Home")">Главная страница</a>
+            <a href="@Url.Action("List", "Services")">Услуги</a>
+            <a href="@Url.Action("Article", "Articles", new { artName = "Шесть-видов-столешниц-для-кухни" })">Статьи</a>
+            <a href="@Url.Action("Contacts", "Home")">Контакты</a>
+            <a href="@Url.Action("List", "FeedBack")">Отзывы</a>
+        </nav>
+        <nav class="footChapter">
+            <a href="@Url.Action("Category", "Category", new { categName="Кухни"})">Кухни</a>
+            <a href="@Url.Action("Category", "Category", new { categName = "Прихожие" })">Прихожие</a>
+            <a href="@Url.Action("Category", "Category", new { categName = "Шкафы-купе" })">Шкафы-купе</a>
+            <a href="@Url.Action("Category", "Category", new { categName = "Гостиные" })">Гостиные</a>
+            <a href="@Url.Action("Category", "Category", new { categName = "Торговое-оборудование" })">Торговое оборудование</a>
+        </nav>
+        <div class="footAbout">
+            @Html.ArticleFoot()
+        </div>
+        <div class="footChapter">
+            <span>Адрес: @Html.Address()</span>
+            <span class="glyphicon glyphicon-phone-alt"></span><span>@Html.Phone()</span>
+            <span class="glyphicon glyphicon-envelope"></span><span>@Html.Email()</span>
+        </div>
+        <div class="footChapter">
+            <span>&copy; Талисман мебель talis-mebel.ru 2016-@DateTime.Now.Year</span>
+            <span id="designInfo">Designed by <a class="footMailLink" href="mailto:chsg73@gmail.com">Chs</a></span>
+        </div>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "DepPhotoView";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h2>Развертывание фотографий товарных позиций на файловой системе сервера.</h2>
+<p>
+    @Html.ActionLink("Развернуть", "DepPhotos", "Admin", null, new { @class = "btn btn-success" })
+</p>
+<p>
+    @TempData["res"]
+</p>
+

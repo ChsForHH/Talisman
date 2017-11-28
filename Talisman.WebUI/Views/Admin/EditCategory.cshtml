@@ -1,0 +1,49 @@
+﻿@model Talisman.Domain.Entities.Categorie
+
+@{
+    ViewBag.Title = "Редактирование категории";
+    Layout = "~/Views/Shared/_AdminLayot.cshtml";
+}
+
+<h3>Редактирование категории @Model.CategoryName</h3>
+
+@using (@Html.BeginForm("EditCategory", "Admin", FormMethod.Post))
+{
+    @Html.HiddenFor(c=>c.CategoryId)
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.CategoryName, "Название категории")
+        @Html.TextBoxFor(c => c.CategoryName, new { @class = "form-control"})
+
+        @Html.LabelFor(c => c.Article, "Статья описания категории")
+        @Html.TextAreaFor(c => c.Article, new { @class = "form-control", rows = 25 })
+
+        @Html.LabelFor(c=>c.Visible,"Отображение на сайте")
+        @Html.CheckBoxFor(c => c.Visible, new { @class = "form-control" })
+        @Html.LabelFor(c => c.CEO, "СЕО текст для тега description на странице категории")
+        @Html.TextAreaFor(c => c.CEO, new { @class = "form-control", rows = 3 })
+
+        @Html.LabelFor(c => c.Title, "Текст для заголовка title")
+        @Html.TextAreaFor(c => c.Title, new { @class = "form-control", rows = 2 })
+
+        @Html.LabelFor(c => c.KeyWords, "Текст для атрибута keywords тега meta")
+        @Html.TextBoxFor(c => c.KeyWords, new { @class = "form-control" })
+    </div>
+    <button class="btn btn-success">Сохранить</button>    
+}
+<h4>Фотография для слайдера</h4>
+<div>
+    @{ var src = "/Content/CategoryPhotos/category" + Model.CategoryId + ".jpeg";}
+    <img src="@src" class="categImg"/> 
+</div>
+<div id="loadPhoto">
+    @Ajax.ActionLink("Добавить/сменить фото", "AddCategoryPhoto", new { categoryId = Model.CategoryId },
+                    new AjaxOptions { UpdateTargetId = "loadPhoto", HttpMethod = "Get", InsertionMode = InsertionMode.Replace },
+                    new { @class = "btn btn-success" })
+</div>
+
+@{Html.RenderAction("Tovars", new { categoryId = Model.CategoryId });}
+
+<div class="adminExit">
+    @Html.ActionLink("Вернуться к списку категорий", "ListCategories", null, new { @class = "btn btn-default" })
+</div>
