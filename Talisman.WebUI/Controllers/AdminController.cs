@@ -96,12 +96,8 @@ namespace Talisman.WebUI.Controllers
             if (ModelState.IsValid)
             {
                 category.CategoryId = 0;
-                category.LM = DateTime.Now;
-                //category.Visible = false;
-                //category.Article = "Куку";
-                //category.CategoryName = "В руку";
-
-                var result = await nrepo.Insert<Categorie>(category);//repo.SaveCategory(category);
+                category.LM = DateTime.Now;                
+                var result = await nrepo.Insert<Categorie>(category);
                 if (result.Success)
                 {
                     TempData["messageCreateOk"] = "Категория успешно создана.";
