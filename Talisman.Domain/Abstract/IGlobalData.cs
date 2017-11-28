@@ -19,8 +19,7 @@ namespace Talisman.Domain.Abstract
         List<FeedBack> FeedBacks { get; }
         List<New> News { get; }
         List<TovarsAndPhoto> TaP { get; }
-        Over Over { get; }
-       // List<T> Data { get; }
+        Over Over { get; }       
     }
     
 }
